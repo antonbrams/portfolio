@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	/* spacing */
+	--s40: 16rem;
+	--s30: 8rem;
+	--s20: 4rem;
+	--s10: 2rem;
+	--s00: 1rem;
+	--s01: 0.5rem;
+	--s02: 0.25rem;
+	--s03: 0.125rem;
+	/* fonts */
+	--t30: 2.6rem;
+	--t20: 2.2rem;
+	--t10: 1.25rem;
+	--t00: 1rem;
+	--t01: 0.75rem;
+	/* grid */
+	--default-grid: 130px;
+}
+
+/* MOBILE */
+@media not screen and (min-width: 760px) and (min-height: 700px) {
+	.hide {
+		@apply !hidden;
+	}
+}
+
+/* TABLET */
+@media screen and (min-width: 760px) and (min-height: 700px) {
+	:root {
+		--t30: 5rem;
+		--t20: 3rem;
+		--t10: 1.6rem;
+		--default-grid: 250px;
+	}
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1781px) and (min-height: 1024px) {
+	:root {
+		--t30: 6rem;
+		--t20: 3.5rem;
+		--t10: 1.6rem;
+		--default-grid: 300px;
+	}
+}
+
+.theme-dark {
+	--bg: hsl(230, 30%, 5%);
+	--sa: hsla(0, 0%, 50%, 0.3);
+	--sl: hsla(0, 0%, 50%, 0.35);
+	--ma: hsla(0, 0%, 80%, 0.5);
+	--ml: hsla(0, 0%, 80%, 0.6);
+	--fg: hsl(0, 0%, 95%);
+	--active: hsl(260, 100%, 70%);
+	/* set color */
+	@apply text-fg;
+}
+
+.theme-light {
+	--bg: white;
+	--sa: hsla(0, 0%, 20%, 0.1);
+	--sl: hsla(0, 0%, 20%, 0.15);
+	--ma: hsla(0, 0%, 20%, 0.4);
+	--ml: hsla(0, 0%, 20%, 0.5);
+	--fg: black;
+	--active: hsl(254, 100%, 59%);
+	/* set color */
+	@apply text-fg;
+}
+
+html {
+	font-size: 20px;
+	@apply font-['Helvetica','Roboto','Arial'] h-[100dvh];
+}
+
+body {
+	@apply bg-[var(--bg)] h-[100dvh];
+}
+
+.header {
+	@apply font-bold tracking-[-0.05em];
+}
+
+.ellipsis {
+	@apply overflow-hidden whitespace-nowrap text-ellipsis;
+}
+
+.highlight {
+	@apply text-active;
+}
+
+a {
+	@apply text-active;
+}
+
+.badge {
+	@apply bg-fg text-bg px-02 rounded-02;
+}
+
+input {
+	@apply rounded p bg-sa;
+}
+
+button {
+	@apply px-10 font-bold transition-all rounded py duration-00 bg-sa;
+}
+
+button.primary {
+	@apply shadow-[0_16px_64px_-4px_var(--active)] bg-active text-[white];
+}
