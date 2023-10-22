@@ -11,7 +11,7 @@
 	}
 
 	$: projects_filtered = projects.filter(
-		p => $show_all_projects || (!$show_all_projects && !p?.settings?.hidden)
+		p => $show_all_projects || !p.settings?.hidden
 	)
 </script>
 
