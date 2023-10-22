@@ -59,27 +59,32 @@
 </Section>
 
 {#each sections.filter(s => !s.hidden) as { title, description, file }, i}
-	<Section class="grid tablet:grid-cols-[auto_auto] items-center gap-20 pb-30">
-		<div class="container contrast-[.85]" class:tablet:order-2={i % 2}>
-			{#if ['jpg', 'png'].includes(file.split('.')[1])}
-				<a href="/projects/{info.name}/{file}" target="_blank">
-					<img
-						class="max-h-[90vh] max-w-full rounded-01"
-						src="/projects/{info.name}/{file}"
-						alt=""
-					/>
-				</a>
-			{/if}
-			{#if ['mp4', 'mov'].includes(file.split('.')[1])}
-				<video
-					class="max-h-[90vh] max-w-full rounded-01"
+	<Section
+		class="grid tablet:grid-cols-[auto_auto] items-center justify-center gap-20 mobile:pb-30"
+	>
+		{#if ['jpg', 'png'].includes(file.split('.')[1])}
+			<a
+				class:tablet:order-2={i % 2}
+				href={`/projects/${info.name}/${file}`}
+				target="_blank"
+			>
+				<img
+					class="contrast-[.85] max-h-[90vh] max-w-full rounded-01"
 					src="/projects/{info.name}/{file}"
-					muted
-					autoplay
-					loop
+					alt=""
 				/>
-			{/if}
-		</div>
+			</a>
+		{/if}
+		{#if ['mp4', 'mov'].includes(file.split('.')[1])}
+			<video
+				class:tablet:order-2={i % 2}
+				class="contrast-[.85] max-h-[90vh] max-w-full rounded-01"
+				src="/projects/{info.name}/{file}"
+				muted
+				autoplay
+				loop
+			/>
+		{/if}
 
 		<div class="min-w-[20ch] max-w-[40ch]">
 			<div class="text-10 header">{title}</div>

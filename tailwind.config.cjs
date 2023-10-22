@@ -53,6 +53,7 @@ export default {
 			'01': ['var(--t01)', {lineHeight: '1.4'}],
 		},
 		screens: {
+			mobile: {raw: '(max-width:760px) or (max-height:700px)'},
 			tablet: {raw: '(min-width:760px) and (min-height:700px)'},
 			desktop: {raw: '(min-width:1780px) and (min-height:1024px)'},
 		},

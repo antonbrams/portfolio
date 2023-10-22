@@ -16,11 +16,17 @@
 	class="flex flex-col items-center justify-center min-h-full gap-30"
 >
 	<span class="text-30 header text-center max-w-[24ch]">{@html intro}</span>
-	<div class="flex gap">
-		<button on:click={e => (location.href = 'mailto:hello@antonbrams.io')}>
+	<div class="flex flex-wrap gap">
+		<button
+			class="mobile:w-full"
+			on:click={e => (location.href = 'mailto:hello@antonbrams.io')}
+		>
 			hello@antonbrams.io
 		</button>
-		<button class="primary" on:click={e => window.open(teaser, '_blank')}>
+		<button
+			class="mobile:w-full primary"
+			on:click={e => window.open(teaser, '_blank')}
+		>
 			Watch Demo
 		</button>
 	</div>
