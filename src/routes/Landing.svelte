@@ -1,13 +1,13 @@
 <script>
 	import {intro, teaser, about, reviews, projects} from '$lib/logic/model.js'
 	import {protect_with_pin} from '$lib/logic/store.js'
-	import {navigate} from 'svelte-navigator'
+	import {push} from 'svelte-spa-router'
 
 	import Section from '$lib/ui/Section.svelte'
 
 	const open_project = (name, locked) => {
 		if (locked && protect_with_pin()) return
-		navigate(`projects/${name}`)
+		push(`/projects/${name}`)
 	}
 </script>
 

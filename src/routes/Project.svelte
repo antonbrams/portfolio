@@ -1,23 +1,19 @@
 <script>
 	import {mdiCloseCircle} from '@mdi/js'
-	import {useParams, navigate} from 'svelte-navigator'
 	import {projects} from '$lib/logic/model.js'
-	import {onMount} from 'svelte'
 	import {protect_with_pin} from '$lib/logic/store.js'
+	import {pop, push} from 'svelte-spa-router'
 
 	import Icon from 'mdi-svelte'
 	import Section from '$lib/ui/Section.svelte'
 
-	const params = useParams()
-	$: ({name} = $params)
-	$: ({info, metadata, sections, settings} = projects.find(
-		p => p.info.name == name
-	))
+	export let params = {}
 
-	onMount(() => {
-		if (settings?.locked && protect_with_pin()) return navigate('/')
-		window.scrollTo(0, 0)
-	})
+	const {info, metadata, sections, settings} = projects.find(
+		p => p.info.name == params.name
+	)
+
+	if (settings?.locked && protect_with_pin()) push('/')
 
 	const metadata_styles = {
 		'date': 'text-30',
@@ -31,7 +27,7 @@
 
 <div
 	class="fixed cursor-pointer z-[1] right top tablet:right-20 tablet:top-20"
-	on:click={e => navigate(-1)}
+	on:click={e => pop()}
 	on:keydown={e => {}}
 	role="button"
 	tabindex="0"
