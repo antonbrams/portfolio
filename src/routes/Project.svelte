@@ -47,19 +47,6 @@
 	</div>
 </Section>
 
-<Section
-	class="grid grid-cols-[repeat(auto-fit,minmax(310px,1fr))] gap grid-flow-dense"
->
-	{#each Object.entries(metadata) as [key, value], i}
-		<div
-			class="grid grid-rows-[1fr_auto] text-center gap items-center rounded-10 bg-sa p-10 pb"
-		>
-			<div class={metadata_styles[key]}>{@html value}</div>
-			<div class="text-01 text-ml">{key}</div>
-		</div>
-	{/each}
-</Section>
-
 {#each sections.filter(s => !s.hidden) as { title, description, file }, i}
 	<Section
 		class="grid tablet:grid-cols-[auto_auto] items-center justify-center gap-20 mobile:pb-30"
@@ -91,4 +78,18 @@
 			<div>{@html description}</div>
 		</div>
 	</Section>
+	{#if i == 0}
+		<Section
+			class="grid grid-cols-[repeat(auto-fit,minmax(310px,1fr))] gap grid-flow-dense"
+		>
+			{#each Object.entries(metadata) as [key, value], i}
+				<div
+					class="grid grid-rows-[1fr_auto] text-center gap items-center rounded-10 bg-sa p-10 pb"
+				>
+					<div class={metadata_styles[key]}>{@html value}</div>
+					<div class="text-01 text-ml">{key}</div>
+				</div>
+			{/each}
+		</Section>
+	{/if}
 {/each}
