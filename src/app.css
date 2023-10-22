@@ -115,6 +115,10 @@ button {
 	@apply px-10 font-bold transition-all rounded py duration-00 bg-sa;
 }
 
+button.small {
+	@apply px py-02 rounded-01 text-01;
+}
+
 button.primary {
 	@apply shadow-[0_16px_64px_-4px_var(--active)] bg-active text-[white];
 }

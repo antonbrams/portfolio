@@ -600,86 +600,86 @@ export const projects = [
 			},
 		],
 	},
-	{
-		info: {
-			name: 'Pitchdeck',
-			description: "The Touchboard's pitch deck",
-			thumbnail: '0.png',
-		},
-		metadata: {
-			'date': `2020`,
-			'responsibilities': 'Idea, Illustration, Storytelling',
-			'client': `Butterfly Company`,
-			'tools': `Figma`,
-			'status': `Selfemployed Full-Time`,
-			'project url': `<a href="https://touchboard.tech" target="_blank">Product Page</a>`,
-		},
-		settings: {
-			hidden: true,
-		},
-		sections: [
-			{
-				file: '1.mp4',
-				title: "The Touchboard's pitch deck",
-				description:
-					'How do you explain something that people have never seen before using simple language and imagery? How do you attract attention with a minimalist design?',
-			},
-			{
-				file: '2.jpg',
-				title: 'The pink curve',
-				description:
-					'I believe in functional yet beautiful design. The fewer elements you use, the faster you can build, but a clean illustration can look dull. To address this, I came up with the idea of a simple line that adds dynamics to the composition. Sometimes it is purely decorative, while at other times, it represents the cursor and hand motion or implies time direction. This line draws attention to whatever we want you to focus on.',
-			},
-			{
-				file: '3.mp4',
-				title: "Users don't know they have problems",
-				description:
-					'It can be challenging to communicate complex topics in one photo or graph, especially if not everyone is an expert in computer interaction. To overcome this, we used various techniques, including ghosting of hands to visualize extensive hand motion within and between input devices, illustrations made with simple shapes that symbolize complex workflows across multiple apps and devices, and a graph illustrating device positions to explain the advantages of our interface.',
-			},
-			{
-				file: '4.mp4',
-				title: 'Explained in 4 slides',
-				description:
-					'Some devices show you what you are about to type, while others give you continuous control over UI elements or reduce hand motion by combining interactions. If you buy one of them, you miss out on the functionality of another. These slides work perfectly in animation to amplify the effect of a single choice. The final slide showcases the Touchboard, which combines the best ideas in one single device.',
-			},
-			{
-				file: '5.mp4',
-				title: 'Like a chameleon',
-				description:
-					"Whatever you do, the Touchboard provides relevant controls directly at your fingertips. Animations are an effective way to showcase the dynamics and adaptivity of the Touchboard's interface as well as different use cases.",
-			},
-			{
-				file: '6.mp4',
-				title: 'Wacom might be our partner',
-				description:
-					'How do we convince a product company that we are the best option? We wanted to show that we fit into their product line and could replace their existing controller.',
-			},
-			{
-				file: '7.mp4',
-				title: "It's a pleasure to be seen by potential customers or partners",
-				description:
-					'Instead of just showing logos, we showcased architecture and people, which turned out to be more engaging. For consistent design, I used the method of turning everything black and white, eliminating the need for color correction, and complementing the composition by placing strong headers in the right spots.',
-			},
-			{
-				file: '8.mp4',
-				title: 'Our team',
-				description:
-					'We are three self-taught, multidisciplinary individuals working to create innovation in a startup garage. Our team page features a simple layout, dense text, and our faces.',
-			},
-			{
-				file: '9.mp4',
-				title: 'More trust',
-				description:
-					'Some slides need to be busy with more logos, people, opinions, organizations, goals, numbers, and assets to convey trust. We went on a long journey, and we have a lot to do.',
-			},
-			{
-				file: '10.jpg',
-				title: 'Call to action',
-				description:
-					'I love this futuristic QR code. It creates a beautiful contrast with the light background and black font, making it a seductive call to action.',
-			},
-		],
-	},
+	// {
+	// 	info: {
+	// 		name: 'Pitchdeck',
+	// 		description: "The Touchboard's pitch deck",
+	// 		thumbnail: '0.png',
+	// 	},
+	// 	metadata: {
+	// 		'date': `2020`,
+	// 		'responsibilities': 'Idea, Illustration, Storytelling',
+	// 		'client': `Butterfly Company`,
+	// 		'tools': `Figma`,
+	// 		'status': `Selfemployed Full-Time`,
+	// 		'project url': `<a href="https://touchboard.tech" target="_blank">Product Page</a>`,
+	// 	},
+	// 	settings: {
+	// 		hidden: true,
+	// 	},
+	// 	sections: [
+	// 		{
+	// 			file: '1.mp4',
+	// 			title: "The Touchboard's pitch deck",
+	// 			description:
+	// 				'How do you explain something that people have never seen before using simple language and imagery? How do you attract attention with a minimalist design?',
+	// 		},
+	// 		{
+	// 			file: '2.jpg',
+	// 			title: 'The pink curve',
+	// 			description:
+	// 				'I believe in functional yet beautiful design. The fewer elements you use, the faster you can build, but a clean illustration can look dull. To address this, I came up with the idea of a simple line that adds dynamics to the composition. Sometimes it is purely decorative, while at other times, it represents the cursor and hand motion or implies time direction. This line draws attention to whatever we want you to focus on.',
+	// 		},
+	// 		{
+	// 			file: '3.mp4',
+	// 			title: "Users don't know they have problems",
+	// 			description:
+	// 				'It can be challenging to communicate complex topics in one photo or graph, especially if not everyone is an expert in computer interaction. To overcome this, we used various techniques, including ghosting of hands to visualize extensive hand motion within and between input devices, illustrations made with simple shapes that symbolize complex workflows across multiple apps and devices, and a graph illustrating device positions to explain the advantages of our interface.',
+	// 		},
+	// 		{
+	// 			file: '4.mp4',
+	// 			title: 'Explained in 4 slides',
+	// 			description:
+	// 				'Some devices show you what you are about to type, while others give you continuous control over UI elements or reduce hand motion by combining interactions. If you buy one of them, you miss out on the functionality of another. These slides work perfectly in animation to amplify the effect of a single choice. The final slide showcases the Touchboard, which combines the best ideas in one single device.',
+	// 		},
+	// 		{
+	// 			file: '5.mp4',
+	// 			title: 'Like a chameleon',
+	// 			description:
+	// 				"Whatever you do, the Touchboard provides relevant controls directly at your fingertips. Animations are an effective way to showcase the dynamics and adaptivity of the Touchboard's interface as well as different use cases.",
+	// 		},
+	// 		{
+	// 			file: '6.mp4',
+	// 			title: 'Wacom might be our partner',
+	// 			description:
+	// 				'How do we convince a product company that we are the best option? We wanted to show that we fit into their product line and could replace their existing controller.',
+	// 		},
+	// 		{
+	// 			file: '7.mp4',
+	// 			title: "It's a pleasure to be seen by potential customers or partners",
+	// 			description:
+	// 				'Instead of just showing logos, we showcased architecture and people, which turned out to be more engaging. For consistent design, I used the method of turning everything black and white, eliminating the need for color correction, and complementing the composition by placing strong headers in the right spots.',
+	// 		},
+	// 		{
+	// 			file: '8.mp4',
+	// 			title: 'Our team',
+	// 			description:
+	// 				'We are three self-taught, multidisciplinary individuals working to create innovation in a startup garage. Our team page features a simple layout, dense text, and our faces.',
+	// 		},
+	// 		{
+	// 			file: '9.mp4',
+	// 			title: 'More trust',
+	// 			description:
+	// 				'Some slides need to be busy with more logos, people, opinions, organizations, goals, numbers, and assets to convey trust. We went on a long journey, and we have a lot to do.',
+	// 		},
+	// 		{
+	// 			file: '10.jpg',
+	// 			title: 'Call to action',
+	// 			description:
+	// 				'I love this futuristic QR code. It creates a beautiful contrast with the light background and black font, making it a seductive call to action.',
+	// 		},
+	// 	],
+	// },
 	{
 		info: {
 			name: 'eSkin',
@@ -694,6 +694,7 @@ export const projects = [
 			tools: `Arduino, Eagle, Molding`,
 			status: `University Project`,
 		},
+		settings: {hidden: true},
 		sections: [
 			{
 				file: '2.jpg',
@@ -858,6 +859,9 @@ export const projects = [
 			'tools': `AfterEffects`,
 			'status': `University Project`,
 			'project url': `<a href="https://youtu.be/-O0U7h2WDmc" target="_blank">YouTube</a>`,
+		},
+		settings: {
+			hidden: true,
 		},
 		sections: [
 			{

@@ -1,6 +1,6 @@
 <script>
 	import {intro, teaser, about, reviews, projects} from '$lib/logic/model.js'
-	import {protect_with_pin} from '$lib/logic/store.js'
+	import {protect_with_pin, show_all_projects} from '$lib/logic/store.js'
 	import {push} from 'svelte-spa-router'
 
 	import Section from '$lib/ui/Section.svelte'
@@ -9,6 +9,10 @@
 		if (locked && protect_with_pin()) return
 		push(`/projects/${name}`)
 	}
+
+	$: projects_filtered = projects.filter(
+		p => $show_all_projects || (!$show_all_projects && !p?.settings?.hidden)
+	)
 </script>
 
 <Section
@@ -52,19 +56,28 @@
 </Section>
 
 <Section>
-	<div class="text-20 header">Projects</div>
+	<div class="flex items-center gap">
+		<div class="text-20 header">Projects</div>
+		<button
+			class="small mt-01"
+			class:primary={!$show_all_projects}
+			on:click={e => ($show_all_projects = !$show_all_projects)}
+		>
+			{$show_all_projects ? 'show hightlights' : 'show all'}
+		</button>
+	</div>
 	<br />
 	<br />
 	<div class="grid grid-cols gap grid-flow-dense">
-		{#each projects.filter(p => !p?.settings?.hidden) as { info, settings }}
+		{#each projects_filtered as { info, settings }}
 			<div
 				on:click={e => open_project(info.name, settings?.locked)}
 				on:keydown
 				role="button"
 				tabindex="0"
 				class={`
-					relative h-[400px] rounded overflow-hidden group hover:shadow-[0_16px_64px_-16px_var(--active)] transition-all duration-00 
-					${settings?.highlight ? 'col-span-2' : ''}
+					relative aspect-[1/1] rounded overflow-hidden group  transition-all duration-00 
+					${settings?.highlight ? 'col-span-2 tablet:row-span-2' : ''}
 				`}
 			>
 				<img
@@ -73,15 +86,14 @@
 					alt="project {info.name}"
 				/>
 				<div
-					class="relative flex items-center justify-center w-full h-full transition-opacity opacity-0 duration-00 backdrop-blur-sm group-hover:opacity-100"
+					class="relative flex items-center justify-center w-full h-full transition-opacity opacity-0 duration-00 backdrop-blur group-hover:opacity-100"
 				>
 					<div class="absolute w-full h-full opacity-80 bg-active" />
 					<div
 						class="transition-all scale-90 group-hover:scale-100 duration-00 text-[white] max-w-[350px] text-center p-10"
 					>
-						<div class="text-10 header">{info.name}</div>
-						<br />
-						<div>{info.description}</div>
+						<div class="text-10 header mb-01">{info.name}</div>
+						<div class="text-01">{info.description}</div>
 					</div>
 				</div>
 			</div>
