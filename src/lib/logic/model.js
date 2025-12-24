@@ -1,36 +1,27 @@
 export const teaser = 'https://www.youtube.com/embed/ZT73xujv4M4'
 
 export const intro = [
-	`I'm a Human-Computer Interaction Designer, crafting human-centered interfaces—from classical app design to innovative physical interfaces. My skills span <span class='highlight'>UX/UI, cutting-edge Web-Technologies, industrial design and electronics</span>, guiding projects from concept to technical implementation.`,
+	`I help founders build <span class='highlight'>innovative products or optimize complex processes</span> by architecting end-to-end MVPs and systems — from user experience to technical execution.`,
 ]
 
 export const about = [
 	[
-		`Startup`,
+		'Projects',
 		[
-			`Inventor and Co-Founder of <a target="blank" href="https://touchboard.tech">Butterfly Touchboard</a> GbR Haptic Interfaces R&D Startup. <br/><br/>`,
-			`<span class='badge'>Jan 2022</span> Design Protection certificate<br/><br/>`,
-			`<span class='badge'>Jan 2022 - Jun 2022</span> <a target="blank" href="https://www.ignitiondus.de">Ignition</a> Accelerator with €25.000 funding <br/><br/>`,
-			`<span class='badge'>Aug 2021 - Oct 2022</span> <a target="blank" href="https://www.gruenderstipendium.nrw">NRW Stipendium</a> with €36.000 funding <br/><br/>`,
-			`<span class='badge'>Oct 2021</span> Best business model pitch winner <a target="blank" href="https://www.duesseldorf.de/aktuelles/news/detailansicht/newsdetail/gruendungsinteressierte-beim-next-award-duesseldorf-ausgezeichnet">Next Award</a> with €10.000 price<br/><br/>`,
-			`<span class='badge'>Dec 2020</span> Butterfly Brand registration<br/><br/>`,
-			`<span class='badge'>Sep 2020 - Aug 2021</span> <a target="blank" href="https://www.exist.de">EXIST Gründerstripendium</a> with €125.000 funding <br/><br/>`,
-			`<span class='badge'>Oct 2019 - Sep 2020</span> <a target="blank" href="https://trip.community/alumni-19-20/">Trip Accelerator Program</a> with €2.000 funding <br/><br/>`,
-			`<span class='badge'>Oct 2019 - Nov 2019</span> Masterthesis about novel Haptic Interfaces <br/><br/>`,
-			`<span class='badge'>Mai 2019 - Oct 2019</span> <a target="blank" href="https://www.uni-weimar.de/de/medien/institute/neudeli/incubator/neudeli-fellowship/">Neudeli Fellowship</a> with €5.000 funding`,
+			`<span class='badge'>Nov 2024 – Aug 2025</span>
+Eliminated manual workflows by designing a scalable laser manufacturing farm at <a target="blank" href="https://alenashop.de">Alena Souvenirs</a><br/><br/>`,
+			`<span class='badge'>Jan 2023 - Nov 2024</span> Freelancing remotely on AI and web full-stack projects for <a target="blank" href="http://meso.design">MESO Digital Interiors GmbH</a> and <a target="blank" href="http://dreiform.de">dreiform GmbH</a>.<br/><br/>`,
+			`<span class='badge'>Aug 2021 - Aug 2025</span> CTO part-time at wholesale eCommerce Shop <a target="blank" href="https://alenashop.de">Alenashop.de</a> building Full-Stack Accounting Software remotely.<br/><br/>`,
 		],
 	],
 	[
 		'Work Experience',
 		[
-			`<span class='badge'>Jan 2023 - now</span> Various Freelance UI & Full-Stack Projects at <a target="blank" href="http://meso.design">MESO Digital Interiors GmbH</a> working remotely for Fraunhofer Institute<br/><br/>`,
-			`<span class='badge'>Aug 2021 - now</span> CTO part-time at wholesale eCommerce Shop <a target="blank" href="https://alenashop.de">Alenashop.de</a> building Full-Stack Accounting Software remotely<br/><br/>`,
-			`<span class='badge'>Okt 2022 - Jan 2023</span> Product Owner full-time at Soft & Hardware Product Company <a target="blank" href="https://www.adversign-media.de">Adversign Media GmbH </a> in Germany/Düsseldorf<br/><br/>`,
-			`<span class='badge'>Jun 2017 - Mar 2018</span> UX Research & Rapid Prototyping part-time at <a target="blank" href="https://www.uni-weimar.de/en/media/institutes/digital-bauhaus-lab/research-labs/human-computer-interaction/">Bauhaus HCI Interface Development Lab</a> in Germany/Weimar<br/><br/>`,
+			`<span class='badge'>Okt 2024 - now</span> Part-Time Techical UX at <a target="blank" href="http://meso.design">MESO Digital Interiors GmbH</a>. <br/><br/>`,
+			`<span class='badge'>Okt 2022 - Jan 2023</span> Product Owner full-time at Soft & Hardware Product Company <a target="blank" href="https://www.adversign-media.de">Adversign Media GmbH </a> in Germany/Düsseldorf.<br/><br/>`,
+			`<span class='badge'>Jun 2017 - Mar 2018</span> UX Research & Rapid Prototyping part-time at <a target="blank" href="https://www.uni-weimar.de/en/media/institutes/digital-bauhaus-lab/research-labs/human-computer-interaction/">Bauhaus HCI Interface Development Lab</a> in Germany/Weimar.<br/><br/>`,
 			`<span class='badge'>Dez 2015 - Apr 2017</span> UX/UI & Technologist full-time at <a target="blank" href="http://meso.design">MESO Digital Interiors GmbH</a> in Germany/Frankfurt am Main working for Hyundai, Telekom, KUKA, BASF, YanFeng, Boehringer Ingelheim, Designreisen...<br/><br/>`,
 			`<span class='badge'>May 2015 - Sep 2015</span> C++ Generative Designer full-time at <a target="blank" href="http://universal-interaction.com">Universal Interaction</a> in Germany/Cologne working for Volksbank...<br/><br/>`,
-			`<span class='badge'>Nov 2014 - May 2015</span> UX/UI & Generative Design internship at <a target="blank" href="http://dreiform.de">dreiform GmbH</a> in Germany/Cologne, working for Telekom, 3M, Union Investment, SLV, Victrex, Avery, Lohmann, Schein...<br/><br/>`,
-			`<span class='badge'>Jul 2011 - Aug 2011</span> Graphic Design & Photography internship at <a target="blank" href="https://www.ihr-foto-profi.de">Ihr-photo-profi.de</a> in Germany/Oberhausen`,
 		],
 	],
 	[
@@ -38,7 +29,35 @@ export const about = [
 		[
 			`<span class='badge'>Apr 2017 - Nov 2019</span> Human-Computer Interaction M.S. at <a target="blank" href="https://www.uni-weimar.de/en/media/studies/human-computer-interaction-msc/">Bauhaus Universität Weimar</a> with 1.0 (highest grade) for Masterthesis. Courses: Advance Human-Computer Interaction, Usability Engineering & Testing, Visualisation, Image Analysis & Recognition, Virtual & Augmented Reality, Computer Graphics, Cognitive Systems, Mobile HCI, Electronics...<br/><br/>`,
 			`<span class='badge'>Jun 2011 - Sep 2015</span> Industrial Design B.A. at <a target="blank" href="https://www.folkwang-uni.de/home/gestaltung/studiengaenge/industrial-design/industrial-design-ba/">Folkwang Universität der Künste</a>  with 1.0 (highest grade) for Bachelorthesis. Courses: User Experience Design, Materials Science and Manufacturing Technology, Typography, Analog and Digital Representation, Ergonomy, CAD, Construction, Film, Generative Design, Design Management...<br/><br/>`,
-			`<span class='badge'>Feb 2012</span> Woodworker certificate at <a target="blank" href="https://www.tischler-essen.de">Tischler-Innung Essen</a> in Germany/Essen<br/><br/>`,
+			`<span class='badge'>Feb 2012</span> Woodworker certificate at <a target="blank" href="https://www.tischler-essen.de">Tischler-Innung Essen</a> in Germany/Essen.<br/><br/>`,
+		],
+	],
+	[
+		`Startup`,
+		[
+			`Inventor and Co-Founder of <a target="blank" href="https://touchboard.tech">Butterfly Touchboard</a> GbR Haptic Interfaces R&D Startup. <br/><br/>`,
+			`<span class='badge'>Jan 2022</span> Design Protection certificate.<br/><br/>`,
+			`<span class='badge'>Jan 2022 - Jun 2022</span> <a target="blank" href="https://www.ignitiondus.de">Ignition</a> Accelerator with €25.000 funding.<br/><br/>`,
+			`<span class='badge'>Aug 2021 - Oct 2022</span> <a target="blank" href="https://www.gruenderstipendium.nrw">NRW Stipendium</a> with €36.000 funding.<br/><br/>`,
+			`<span class='badge'>Oct 2021</span> Best business model pitch winner <a target="blank" href="https://www.duesseldorf.de/aktuelles/news/detailansicht/newsdetail/gruendungsinteressierte-beim-next-award-duesseldorf-ausgezeichnet">Next Award</a> with €10.000 price.<br/><br/>`,
+			`<span class='badge'>Dec 2020</span> Butterfly Brand registration.<br/><br/>`,
+			`<span class='badge'>Sep 2020 - Aug 2021</span> <a target="blank" href="https://www.exist.de">EXIST Gründerstripendium</a> with €125.000 funding.<br/><br/>`,
+			`<span class='badge'>Oct 2019 - Sep 2020</span> <a target="blank" href="https://trip.community/alumni-19-20/">Trip Accelerator Program</a> with €2.000 funding.<br/><br/>`,
+			`<span class='badge'>Oct 2019 - Nov 2019</span> Masterthesis about novel Haptic Interfaces.<br/><br/>`,
+			`<span class='badge'>Mai 2019 - Oct 2019</span> <a target="blank" href="https://www.uni-weimar.de/de/medien/institute/neudeli/incubator/neudeli-fellowship/">Neudeli Fellowship</a> with €5.000 funding.`,
+		],
+	],
+	[
+		'Interships',
+		[
+			`<span class='badge'>Nov 2014 - May 2015</span> UX/UI & Generative Design internship at <a target="blank" href="http://dreiform.de">dreiform GmbH</a> in Germany/Cologne, working for Telekom, 3M, Union Investment, SLV, Victrex, Avery, Lohmann, Schein...<br/><br/>`,
+			`<span class='badge'>Jul 2011 - Aug 2011</span> Graphic Design & Photography internship at <a target="blank" href="https://www.ihr-foto-profi.de">Ihr-photo-profi.de</a> in Germany/Oberhausen.`,
+		],
+	],
+	[
+		'Teaching',
+		[
+			`<span class='badge'>Nov 2023 - Feb 2024</span> Lecturer for the “Interaction II” course, teaching Design Systems and React-based UI development at the <a target="blank" href="https://www.hbk-essen.de/de/digital-media-design">Hochschule der Bildenden Künste Essen</a>.<br/><br/>`,
 		],
 	],
 	[
@@ -72,7 +91,7 @@ export const about = [
 		[
 			`• Motion Graphics <span class='badge'>AfterEffects</span>`,
 			`• 3D presentation <span class='badge'>Cinema4D</span>`,
-			`• Video Editing <span class='badge'>FinalCut</span> <span class='badge'>Premiere</span>`,
+			`• Video Editing <span class='badge'>FinalCut</span> <span class='badge'>Premiere</span> <span class='badge'>DaVinci Resolve</span>`,
 			`• Simple Illustrations`,
 			`• Landing Pages`,
 			`• Marketing Materials`,
@@ -84,7 +103,8 @@ export const about = [
 	[
 		'Frontend',
 		[
-			`• UI <span class='badge'>React</span> <span class='badge'>Svelte</span> <span class='badge'>NextJS</span> <span class='badge'>SvelteKit</span>`,
+			`• TypeScript`,
+			`• UI Frameworks <span class='badge'>React</span> <span class='badge'>Svelte</span> <span class='badge'>NextJS</span> <span class='badge'>SvelteKit</span>`,
 			`• Styling <span class='badge'>Tailwind</span> <span class='badge'>Styled Components</span>`,
 			`• Responsive Design`,
 			`• UI Components`,
@@ -103,6 +123,7 @@ export const about = [
 	[
 		'Backend',
 		[
+			`• Backend <span class='badge'>Payload CMS</span>`,
 			`• Runtime <span class='badge'>NodeJS</span> <span class='badge'>Electron</span>`,
 			`• Routing <span class='badge'>Express JS</span>`,
 			`• Database <span class='badge'>Postgres</span> <span class='badge'>MongoDB</span>`,
@@ -110,7 +131,7 @@ export const about = [
 			`• SSL Encryption`,
 			`• JWT Auth`,
 			`• CD/CI <span class='badge'>GitHub</span> <span class='badge'>GitLab</span>`,
-			`• Docker`,
+			`• Deployment <span class='badge'>Docker</span>`,
 			`• Hosting <span class='badge'>AWS/EC2</span> <span class='badge'>Heroku</span>`,
 			`• Document generation <span class='badge'>Puppeteer</span>`,
 		],
@@ -118,11 +139,13 @@ export const about = [
 	[
 		'Machine Learning',
 		[
-			`• OpenAI ChatGPT`,
+			`• Agent in a Loop`,
+			`• Speech to Text & Text to Speech <span class='badge'>Whisper</span> <span class='badge'>Piper</span>`,
+			`• Runtimes <span class='badge'>Ollama</span> <span class='badge'>ChatGPT</span>`,
 			`• Langchain`,
 			`• Huggingface`,
 			`• Embedding`,
-			`• Vector Databases <span class='badge'>Elasticsearch</span> <span class='badge'>Chroma</span>`,
+			`• Vector Databases <span class='badge'>Elasticsearch</span> <span class='badge'>Chroma</span> <span class='badge'>LanceDB</span>`,
 		],
 	],
 	[
@@ -406,8 +429,7 @@ export const projects = [
 	{
 		info: {
 			name: 'YanFeng',
-			description:
-				'Dashboard design and programming for a futuristic self driving showcar',
+			description: 'Dashboard design and programming for a futuristic self driving showcar',
 			thumbnail: '0.png',
 		},
 		metadata: {
@@ -424,8 +446,7 @@ export const projects = [
 		sections: [
 			{
 				file: '1.mp4',
-				title:
-					'Dashboard design and programming for a futuristic self driving showcar',
+				title: 'Dashboard design and programming for a futuristic self driving showcar',
 				description:
 					'This Project was all about the future of autonomous driving. How could the dashboard interface look like?',
 			},
@@ -443,10 +464,8 @@ export const projects = [
 			},
 			{
 				file: '4.mp4',
-				title:
-					'The ceiling changes its texture. Seats make more space by rearranging themselves.',
-				description:
-					'All the components are controlled via <i>MQTT</i> protocol.',
+				title: 'The ceiling changes its texture. Seats make more space by rearranging themselves.',
+				description: 'All the components are controlled via <i>MQTT</i> protocol.',
 			},
 			{
 				file: '3.mp4',
@@ -456,8 +475,7 @@ export const projects = [
 			},
 			{
 				file: '6.jpg',
-				title:
-					'Door screens display from window control up to fitness statistics',
+				title: 'Door screens display from window control up to fitness statistics',
 				description:
 					'Screens are controlled by <i>Raspberry Pi</i>. Graphical Interfaces are made in <i>HTML</i> and <i>JavaScript</i> running within <i>Electron</i>.',
 			},
@@ -494,8 +512,7 @@ export const projects = [
 			},
 			{
 				file: '2.mp4',
-				title:
-					'The first smartphone module is attached behind the steering wheel',
+				title: 'The first smartphone module is attached behind the steering wheel',
 				description:
 					'It shows the gear, velocity, current rotation speed, and other critical car information.',
 			},
@@ -517,8 +534,7 @@ export const projects = [
 	{
 		info: {
 			name: 'BASF',
-			description:
-				'Intuitive digital system for collective brainstomings using multiple devices',
+			description: 'Intuitive digital system for collective brainstomings using multiple devices',
 			thumbnail: '0.png',
 		},
 		metadata: {
@@ -534,8 +550,7 @@ export const projects = [
 		sections: [
 			{
 				file: '4.mp4',
-				title:
-					'Intuitive digital system for collective brainstomings using multiple devices',
+				title: 'Intuitive digital system for collective brainstomings using multiple devices',
 				description:
 					'BASF provides expert support for their customers in selecting the best materials for their application. Therefore, it comes to collective brainstomings.',
 			},
@@ -683,8 +698,7 @@ export const projects = [
 	{
 		info: {
 			name: 'eSkin',
-			description:
-				'Electronic skin for the bidirectional tactile communication between people',
+			description: 'Electronic skin for the bidirectional tactile communication between people',
 			thumbnail: '3.jpg',
 		},
 		metadata: {
@@ -698,15 +712,12 @@ export const projects = [
 		sections: [
 			{
 				file: '2.jpg',
-				title:
-					'Electronic skin for the bidirectional tactile communication between people',
-				description:
-					'If one person touches his arm, another can feel it. "Cyborg" HCI project.',
+				title: 'Electronic skin for the bidirectional tactile communication between people',
+				description: 'If one person touches his arm, another can feel it. "Cyborg" HCI project.',
 			},
 			{
 				file: '3.jpg',
-				title:
-					"The tactile and visual information is transmitted to another person's arm",
+				title: "The tactile and visual information is transmitted to another person's arm",
 				description: 'The eSkin consists of single tactile pixels',
 			},
 			{
@@ -718,8 +729,7 @@ export const projects = [
 			{
 				file: '5.jpg',
 				title: 'Pixels are connected parallely with the Main Unit',
-				description:
-					'We used <i>I<sup>2</sup>C</i> to communicate with 31 pixels individually.',
+				description: 'We used <i>I<sup>2</sup>C</i> to communicate with 31 pixels individually.',
 			},
 			{
 				file: '4.mp4',
@@ -744,8 +754,7 @@ export const projects = [
 	{
 		info: {
 			name: 'InfoSight',
-			description:
-				'HUD experimental interface for caretakers controlled by mouth clicks',
+			description: 'HUD experimental interface for caretakers controlled by mouth clicks',
 			thumbnail: '7.jpg',
 		},
 		metadata: {
@@ -759,8 +768,7 @@ export const projects = [
 		sections: [
 			{
 				file: '7.jpg',
-				title:
-					'HUD experimental interface for caretakers controlled by mouth clicks',
+				title: 'HUD experimental interface for caretakers controlled by mouth clicks',
 				description:
 					'"Care Robot" HCI project in cooperation with the industrial design department. The functional prototype was built in just 3 days.',
 			},
@@ -772,10 +780,8 @@ export const projects = [
 			},
 			{
 				file: '2.mov',
-				title:
-					'The system recognizes automatically, who is in front of the caretaker',
-				description:
-					'We use Bluetooth Low Energy trackers, to give our system a context.',
+				title: 'The system recognizes automatically, who is in front of the caretaker',
+				description: 'We use Bluetooth Low Energy trackers, to give our system a context.',
 			},
 			{
 				file: '3.mov',
@@ -793,8 +799,7 @@ export const projects = [
 			{
 				file: '5.mov',
 				title: "InfoSight updates the patient's account",
-				description:
-					'Our prototype utilizes <i>Google Calendar</i> to keep track of each patient',
+				description: 'Our prototype utilizes <i>Google Calendar</i> to keep track of each patient',
 			},
 			{
 				file: '6.jpg',
@@ -807,8 +812,7 @@ export const projects = [
 	{
 		info: {
 			name: 'TimeDNA',
-			description:
-				'The experimental way to represent time and data in Virtual Reality',
+			description: 'The experimental way to represent time and data in Virtual Reality',
 			thumbnail: '0.png',
 		},
 		metadata: {
@@ -821,16 +825,14 @@ export const projects = [
 		sections: [
 			{
 				file: '3.mp4',
-				title:
-					'The experimental way to represent time and data in Virtual Reality',
+				title: 'The experimental way to represent time and data in Virtual Reality',
 				description:
 					'60 seconds are 1 minute. 60 minutes are 1 hour. If seconds were a helix, it would wrap around minutes. Minutes would wrap around hours...',
 			},
 			{
 				file: '2.mp4',
 				title: 'You see the perspective of time',
-				description:
-					'The interface provides an easy navigation in 3D, using VR controller',
+				description: 'The interface provides an easy navigation in 3D, using VR controller',
 			},
 			{
 				file: '4.mp4',
@@ -893,8 +895,7 @@ export const projects = [
 	{
 		info: {
 			name: 'Fraport',
-			description:
-				'Digital brand communication for Frankfurt International Airport',
+			description: 'Digital brand communication for Frankfurt International Airport',
 			thumbnail: '2.jpg',
 		},
 		metadata: {
@@ -911,8 +912,7 @@ export const projects = [
 		sections: [
 			{
 				file: '1.jpg',
-				title:
-					'Digital brand communication for Frankfurt International Airport',
+				title: 'Digital brand communication for Frankfurt International Airport',
 				description:
 					'MESO developed an adaptive real-time media data feed for the 435m LED stripe to form a harmonic impression with the advertisment.',
 			},
@@ -1022,8 +1022,7 @@ export const projects = [
 			{
 				file: '4.mov',
 				title: "If it's time, it falls",
-				description:
-					'Outdated pucks are falling in the "dock" behind the bottom screen area.',
+				description: 'Outdated pucks are falling in the "dock" behind the bottom screen area.',
 			},
 			{
 				file: '5.mov',
@@ -1036,8 +1035,7 @@ export const projects = [
 	{
 		info: {
 			name: 'Dance Dj',
-			description:
-				'Bachelor Thesis: Smart suit produces music to your dance moves',
+			description: 'Bachelor Thesis: Smart suit produces music to your dance moves',
 			thumbnail: '0.png',
 		},
 		metadata: {
@@ -1186,8 +1184,7 @@ export const projects = [
 			{
 				file: '1.mp4',
 				title: 'Filmmaking class',
-				description:
-					'We had to make a promo video about an artificial product. Here we go!',
+				description: 'We had to make a promo video about an artificial product. Here we go!',
 			},
 			{
 				file: '5.mov',
@@ -1338,8 +1335,7 @@ export const projects = [
 			{
 				file: '4.jpg',
 				title: 'Trolley',
-				description:
-					'A trolley from eBay <br/> has been utilized for this duty.',
+				description: 'A trolley from eBay <br/> has been utilized for this duty.',
 			},
 		],
 	},
