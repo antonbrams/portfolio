@@ -1,80 +1,88 @@
 export const teaser = 'https://www.youtube.com/embed/ZT73xujv4M4'
 
-export const intro = [
-	`I help founders build <span class='highlight'>innovative products or optimize complex processes</span> by architecting end-to-end MVPs and systems — from user experience to technical execution.`,
-]
+export const intro = `I help founders build <span class='highlight'>innovative products or optimize complex processes</span> by architecting end-to-end MVPs and systems — from user experience to technical execution.`
+
+export const sub = `I’m a Principal Innovation Architect who tackles complex, cross-domain challenges like those handled in R&D labs such as Apple Future Interfaces or Google ATAP. I design and build digital and hybrid systems spanning user experience, interface and product logic, software architecture, algorithms, data, and, when needed, hardware and manufacturing. My solutions reduce costs and unlock new capabilities; I focus on creating coherent architectures that cannot be assembled by isolated specialists, quickly identifying root problems and turning ideas into working systems.`
 
 export const about = [
-	[
-		'Projects',
-		[
-			`<span class='badge'>Nov 2024 – Aug 2025</span>
-Eliminated manual workflows by designing a scalable laser manufacturing farm at <a target="blank" href="https://alenashop.de">Alena Souvenirs</a><br/><br/>`,
-			`<span class='badge'>Jan 2023 - Nov 2024</span> Freelancing remotely on AI and web full-stack projects for <a target="blank" href="http://meso.design">MESO Digital Interiors GmbH</a> and <a target="blank" href="http://dreiform.de">dreiform GmbH</a>.<br/><br/>`,
-			`<span class='badge'>Aug 2021 - Aug 2025</span> CTO part-time at wholesale eCommerce Shop <a target="blank" href="https://alenashop.de">Alenashop.de</a> building Full-Stack Accounting Software remotely.<br/><br/>`,
+	{
+		title: 'Projects',
+		items: [
+			`<span class='badge'>Nov 2024 – Aug 2025</span> Eliminated manual workflows by designing a scalable laser manufacturing farm at <a target="_blank" href="https://alenashop.de">Alena Souvenirs</a>.<br/><br/>`,
+			`<span class='badge'>Jan 2023 - Nov 2024</span> Freelancing remotely on AI and web full-stack projects for <a target="_blank" href="http://meso.design">MESO Digital Interiors GmbH</a> and <a target="_blank" href="http://dreiform.de">dreiform GmbH</a>.<br/><br/>`,
+			`<span class='badge'>Aug 2021 - Aug 2025</span> Remotely built full-stack accounting platform improving workflow efficiency for 2000+ products at wholesale eCommerce Shop <a target="_blank" href="https://alenashop.de">Alenashop.de</a>.<br/><br/>`,
 		],
-	],
-	[
-		'Work Experience',
-		[
-			`<span class='badge'>Okt 2024 - now</span> Part-Time Techical UX at <a target="blank" href="http://meso.design">MESO Digital Interiors GmbH</a>. <br/><br/>`,
-			`<span class='badge'>Okt 2022 - Jan 2023</span> Product Owner full-time at Soft & Hardware Product Company <a target="blank" href="https://www.adversign-media.de">Adversign Media GmbH </a> in Germany/Düsseldorf.<br/><br/>`,
-			`<span class='badge'>Jun 2017 - Mar 2018</span> UX Research & Rapid Prototyping part-time at <a target="blank" href="https://www.uni-weimar.de/en/media/institutes/digital-bauhaus-lab/research-labs/human-computer-interaction/">Bauhaus HCI Interface Development Lab</a> in Germany/Weimar.<br/><br/>`,
-			`<span class='badge'>Dez 2015 - Apr 2017</span> UX/UI & Technologist full-time at <a target="blank" href="http://meso.design">MESO Digital Interiors GmbH</a> in Germany/Frankfurt am Main working for Hyundai, Telekom, KUKA, BASF, YanFeng, Boehringer Ingelheim, Designreisen...<br/><br/>`,
-			`<span class='badge'>May 2015 - Sep 2015</span> C++ Generative Designer full-time at <a target="blank" href="http://universal-interaction.com">Universal Interaction</a> in Germany/Cologne working for Volksbank...<br/><br/>`,
+	},
+	{
+		title: 'Work Experience',
+		items: [
+			`<span class='badge'>Oct 2024 - now</span> Part-Time Technical UX at <a target="_blank" href="http://meso.design">MESO Digital Interiors GmbH</a>. <br/><br/>`,
+			`<span class='badge'>Oct 2022 - Jan 2023</span> Product Owner full-time at Soft & Hardware Product Company <a target="_blank" href="https://www.adversign-media.de">Adversign Media GmbH </a> in Germany/Düsseldorf.<br/><br/>`,
+			`<span class='badge'>Jun 2017 - Mar 2018</span> UX Research & Rapid Prototyping part-time at <a target="_blank" href="https://www.uni-weimar.de/en/media/institutes/digital-bauhaus-lab/research-labs/human-computer-interaction/">Bauhaus HCI Interface Development Lab</a> in Germany/Weimar.<br/><br/>`,
+			`<span class='badge'>Dez 2015 - Apr 2017</span> UX/UI & Technologist full-time at <a target="_blank" href="http://meso.design">MESO Digital Interiors GmbH</a> in Germany/Frankfurt am Main working for Hyundai, Telekom, KUKA, BASF, YanFeng, Boehringer Ingelheim, Designreisen...<br/><br/>`,
+			`<span class='badge'>May 2015 - Sep 2015</span> C++ Generative Designer full-time at <a target="_blank" href="http://universal-interaction.com">Universal Interaction</a> in Germany/Cologne working for Volksbank...<br/><br/>`,
 		],
-	],
-	[
-		'Education',
-		[
-			`<span class='badge'>Apr 2017 - Nov 2019</span> Human-Computer Interaction M.S. at <a target="blank" href="https://www.uni-weimar.de/en/media/studies/human-computer-interaction-msc/">Bauhaus Universität Weimar</a> with 1.0 (highest grade) for Masterthesis. Courses: Advance Human-Computer Interaction, Usability Engineering & Testing, Visualisation, Image Analysis & Recognition, Virtual & Augmented Reality, Computer Graphics, Cognitive Systems, Mobile HCI, Electronics...<br/><br/>`,
-			`<span class='badge'>Jun 2011 - Sep 2015</span> Industrial Design B.A. at <a target="blank" href="https://www.folkwang-uni.de/home/gestaltung/studiengaenge/industrial-design/industrial-design-ba/">Folkwang Universität der Künste</a>  with 1.0 (highest grade) for Bachelorthesis. Courses: User Experience Design, Materials Science and Manufacturing Technology, Typography, Analog and Digital Representation, Ergonomy, CAD, Construction, Film, Generative Design, Design Management...<br/><br/>`,
-			`<span class='badge'>Feb 2012</span> Woodworker certificate at <a target="blank" href="https://www.tischler-essen.de">Tischler-Innung Essen</a> in Germany/Essen.<br/><br/>`,
+	},
+	{
+		title: 'Education',
+		items: [
+			`<span class='badge'>Apr 2017 - Nov 2019</span> Human-Computer Interaction M.S. at <a target="_blank" href="https://www.uni-weimar.de/en/media/studies/human-computer-interaction-msc/">Bauhaus Universität Weimar</a> with 1.0 (highest grade) for Master Thesis. Courses: Advanced Human-Computer Interaction, Usability Engineering & Testing, Visualisation, Image Analysis & Recognition, Virtual & Augmented Reality, Computer Graphics, Cognitive Systems, Mobile HCI, Electronics...<br/><br/>`,
+			`<span class='badge'>Jun 2011 - Sep 2015</span> Industrial Design B.A. at <a target="_blank" href="https://www.folkwang-uni.de/home/gestaltung/studiengaenge/industrial-design/industrial-design-ba/">Folkwang Universität der Künste</a>  with 1.0 (highest grade) for Bachelorthesis. Courses: User Experience Design, Materials Science and Manufacturing Technology, Typography, Analog and Digital Representation, Ergonomics, CAD, Construction, Film, Generative Design, Design Management...<br/><br/>`,
+			`<span class='badge'>Feb 2012</span> Woodworker certificate at <a target="_blank" href="https://www.tischler-essen.de">Tischler-Innung Essen</a> in Germany/Essen.<br/><br/>`,
 		],
-	],
-	[
-		`Startup`,
-		[
-			`Inventor and Co-Founder of <a target="blank" href="https://touchboard.tech">Butterfly Touchboard</a> GbR Haptic Interfaces R&D Startup. <br/><br/>`,
+	},
+	{
+		title: `Startup`,
+		items: [
+			`Inventor and Co-Founder of <a target="_blank" href="https://touchboard.tech">Butterfly Touchboard</a> GbR Haptic Interfaces R&D Startup. <br/><br/>`,
 			`<span class='badge'>Jan 2022</span> Design Protection certificate.<br/><br/>`,
-			`<span class='badge'>Jan 2022 - Jun 2022</span> <a target="blank" href="https://www.ignitiondus.de">Ignition</a> Accelerator with €25.000 funding.<br/><br/>`,
-			`<span class='badge'>Aug 2021 - Oct 2022</span> <a target="blank" href="https://www.gruenderstipendium.nrw">NRW Stipendium</a> with €36.000 funding.<br/><br/>`,
-			`<span class='badge'>Oct 2021</span> Best business model pitch winner <a target="blank" href="https://www.duesseldorf.de/aktuelles/news/detailansicht/newsdetail/gruendungsinteressierte-beim-next-award-duesseldorf-ausgezeichnet">Next Award</a> with €10.000 price.<br/><br/>`,
+			`<span class='badge'>Jan 2022 - Jun 2022</span> <a target="_blank" href="https://www.ignitiondus.de">Ignition</a> Accelerator with €25.000 funding.<br/><br/>`,
+			`<span class='badge'>Aug 2021 - Oct 2022</span> <a target="_blank" href="https://www.gruenderstipendium.nrw">NRW Stipendium</a> with €36.000 funding.<br/><br/>`,
+			`<span class='badge'>Oct 2021</span> Best business model pitch winner <a target="_blank" href="https://www.duesseldorf.de/aktuelles/news/detailansicht/newsdetail/gruendungsinteressierte-beim-next-award-duesseldorf-ausgezeichnet">Next Award</a> with €10.000 price.<br/><br/>`,
 			`<span class='badge'>Dec 2020</span> Butterfly Brand registration.<br/><br/>`,
-			`<span class='badge'>Sep 2020 - Aug 2021</span> <a target="blank" href="https://www.exist.de">EXIST Gründerstripendium</a> with €125.000 funding.<br/><br/>`,
-			`<span class='badge'>Oct 2019 - Sep 2020</span> <a target="blank" href="https://trip.community/alumni-19-20/">Trip Accelerator Program</a> with €2.000 funding.<br/><br/>`,
-			`<span class='badge'>Oct 2019 - Nov 2019</span> Masterthesis about novel Haptic Interfaces.<br/><br/>`,
-			`<span class='badge'>Mai 2019 - Oct 2019</span> <a target="blank" href="https://www.uni-weimar.de/de/medien/institute/neudeli/incubator/neudeli-fellowship/">Neudeli Fellowship</a> with €5.000 funding.`,
+			`<span class='badge'>Sep 2020 - Aug 2021</span> <a target="_blank" href="https://www.exist.de">EXIST Gründerstripendium</a> with €125.000 funding.<br/><br/>`,
+			`<span class='badge'>Oct 2019 - Sep 2020</span> <a target="_blank" href="https://trip.community/alumni-19-20/">Trip Accelerator Program</a> with €2.000 funding.<br/><br/>`,
+			`<span class='badge'>Oct 2019 - Nov 2019</span> Master Thesis about novel Haptic Interfaces.<br/><br/>`,
+			`<span class='badge'>Mai 2019 - Oct 2019</span> <a target="_blank" href="https://www.uni-weimar.de/de/medien/institute/neudeli/incubator/neudeli-fellowship/">Neudeli Fellowship</a> with €5.000 funding.`,
 		],
-	],
-	[
-		'Interships',
-		[
-			`<span class='badge'>Nov 2014 - May 2015</span> UX/UI & Generative Design internship at <a target="blank" href="http://dreiform.de">dreiform GmbH</a> in Germany/Cologne, working for Telekom, 3M, Union Investment, SLV, Victrex, Avery, Lohmann, Schein...<br/><br/>`,
-			`<span class='badge'>Jul 2011 - Aug 2011</span> Graphic Design & Photography internship at <a target="blank" href="https://www.ihr-foto-profi.de">Ihr-photo-profi.de</a> in Germany/Oberhausen.`,
+	},
+	{
+		title: 'Internships',
+		items: [
+			`<span class='badge'>Nov 2014 - May 2015</span> UX/UI & Generative Design internship at <a target="_blank" href="http://dreiform.de">dreiform GmbH</a> in Germany/Cologne, working for Telekom, 3M, Union Investment, SLV, Victrex, Avery, Lohmann, Schein...<br/><br/>`,
+			`<span class='badge'>Jul 2011 - Aug 2011</span> Graphic Design & Photography internship at <a target="_blank" href="https://www.ihr-foto-profi.de">Ihr-photo-profi.de</a> in Germany/Oberhausen.`,
 		],
-	],
-	[
-		'Teaching',
-		[
-			`<span class='badge'>Nov 2023 - Feb 2024</span> Lecturer for the “Interaction II” course, teaching Design Systems and React-based UI development at the <a target="blank" href="https://www.hbk-essen.de/de/digital-media-design">Hochschule der Bildenden Künste Essen</a>.<br/><br/>`,
+	},
+	{
+		title: 'Teaching',
+		items: [
+			`<span class='badge'>Nov 2023 - Feb 2024</span> Lecturer for the “Interaction II” course, teaching Design Systems and React-based UI development at the <a target="_blank" href="https://www.hbk-essen.de/de/digital-media-design">Hochschule der Bildenden Künste Essen</a>.<br/><br/>`,
 		],
-	],
-	[
-		'Languages',
-		[
+	},
+	{
+		title: 'Core Expertise',
+		items: [
+			`• Innovation Architect / Designer / System Creator Role<br/><br/>`,
+			`• Human Interaction + Software + Hardware Scope<br/><br/>`,
+			`• Impact: Makes Complexity Invisible, Enables New Possibilities through Innovation, and Automates Complex Processes<br/><br/>`,
+		],
+	},
+	{
+		title: 'Languages',
+		items: [
 			`• English <span class='badge'>C1</span>`,
 			`• German <span class='badge'>C2</span>`,
 			`• Russian <span class='badge'>Native</span>`,
-			`• JavaScript/HTML/CSS`,
-			`• C/C++`,
-			`• Linux Shell Scripting`,
+			`• JavaScript / HTML / CSS`,
+			`• C++`,
+			`• Bash`,
 			`• passive usage of other GPLs...`,
 		],
-	],
-	[
-		'UX/UI',
-		[
+	},
+	{
+		title: 'UX/UI',
+		hidden: true,
+		items: [
 			`• Wire-framing <span class='badge'>Figma</span>`,
 			`• Design Systems <span class='badge'>Atomic Design System</span>`,
 			`• Data Visualisation`,
@@ -85,10 +93,11 @@ Eliminated manual workflows by designing a scalable laser manufacturing farm at 
 			`• Graphic Design <span class='badge'>Photoshop</span>`,
 			`• Haptic Interfaces`,
 		],
-	],
-	[
-		'Presentation',
-		[
+	},
+	{
+		title: 'Presentation',
+		hidden: true,
+		items: [
 			`• Motion Graphics <span class='badge'>AfterEffects</span>`,
 			`• 3D presentation <span class='badge'>Cinema4D</span>`,
 			`• Video Editing <span class='badge'>FinalCut</span> <span class='badge'>Premiere</span> <span class='badge'>DaVinci Resolve</span>`,
@@ -99,10 +108,11 @@ Eliminated manual workflows by designing a scalable laser manufacturing farm at 
 			`• Public Speaking / Pitching`,
 			`• Music composition <span class='badge'>Ableton Live</span>`,
 		],
-	],
-	[
-		'Frontend',
-		[
+	},
+	{
+		title: 'Frontend',
+		hidden: true,
+		items: [
 			`• TypeScript`,
 			`• UI Frameworks <span class='badge'>React</span> <span class='badge'>Svelte</span> <span class='badge'>NextJS</span> <span class='badge'>SvelteKit</span>`,
 			`• Styling <span class='badge'>Tailwind</span> <span class='badge'>Styled Components</span>`,
@@ -111,18 +121,20 @@ Eliminated manual workflows by designing a scalable laser manufacturing farm at 
 			`• Animation <span class='badge'>Framer Motion</span>`,
 			`• Low-Level Gesture Programming`,
 		],
-	],
-	[
-		'Mobile',
-		[
+	},
+	{
+		title: 'Mobile',
+		hidden: true,
+		items: [
 			`• Progressive Web App`,
 			`• Acceptance Testing <span class='badge'>Maestro</span>`,
 			`• Cordova`,
 		],
-	],
-	[
-		'Backend',
-		[
+	},
+	{
+		title: 'Backend',
+		hidden: true,
+		items: [
 			`• Backend <span class='badge'>Payload CMS</span>`,
 			`• Runtime <span class='badge'>NodeJS</span> <span class='badge'>Electron</span>`,
 			`• Routing <span class='badge'>Express JS</span>`,
@@ -135,10 +147,11 @@ Eliminated manual workflows by designing a scalable laser manufacturing farm at 
 			`• Hosting <span class='badge'>AWS/EC2</span> <span class='badge'>Heroku</span>`,
 			`• Document generation <span class='badge'>Puppeteer</span>`,
 		],
-	],
-	[
-		'Machine Learning',
-		[
+	},
+	{
+		title: 'Machine Learning',
+		hidden: true,
+		items: [
 			`• Agent in a Loop`,
 			`• Speech to Text & Text to Speech <span class='badge'>Whisper</span> <span class='badge'>Piper</span>`,
 			`• Runtimes <span class='badge'>Ollama</span> <span class='badge'>ChatGPT</span>`,
@@ -147,10 +160,11 @@ Eliminated manual workflows by designing a scalable laser manufacturing farm at 
 			`• Embedding`,
 			`• Vector Databases <span class='badge'>Elasticsearch</span> <span class='badge'>Chroma</span> <span class='badge'>LanceDB</span>`,
 		],
-	],
-	[
-		'Electronics',
-		[
+	},
+	{
+		title: 'Electronics',
+		hidden: true,
+		items: [
 			`• SMT Reflow Soldering`,
 			`• PCB Design <span class='badge'>Eagle</span>`,
 			`• Flex PCB Design`,
@@ -158,10 +172,11 @@ Eliminated manual workflows by designing a scalable laser manufacturing farm at 
 			`• Sensors <span class='badge'>Force</span> <span class='badge'>Multitouch Surfaces</span>`,
 			`• Actuators <span class='badge'>Apple Taptic Engine</span> <span class='badge'>LRA</span> <span class='badge'>ERM</span>`,
 		],
-	],
-	[
-		'Connectivity',
-		[
+	},
+	{
+		title: 'Connectivity',
+		hidden: true,
+		items: [
 			`• Rest API`,
 			`• GraphQL`,
 			`• MQTT`,
@@ -171,10 +186,11 @@ Eliminated manual workflows by designing a scalable laser manufacturing farm at 
 			`• Wi-Fi`,
 			`• 433MHz Antenna`,
 		],
-	],
-	[
-		'Industrial Design',
-		[
+	},
+	{
+		title: 'Industrial Design',
+		hidden: true,
+		items: [
 			`• Analog Sketching`,
 			`• Housing <span class='badge'>Rhino3D</span> <span class='badge'>Fusion 360</span>`,
 			`• 3D Printing <span class='badge'>SLA</span> <span class='badge'>FDM</span>`,
@@ -182,10 +198,11 @@ Eliminated manual workflows by designing a scalable laser manufacturing farm at 
 			`• Wooden Workshop Machines`,
 			`• Package Design`,
 		],
-	],
-	[
-		'Generative Design',
-		[
+	},
+	{
+		title: 'Generative Design',
+		hidden: true,
+		items: [
 			`• Image Processing Algorithms`,
 			`• 3D Graphics <span class='badge'>Three.js</span> <span class='badge'>OpenFrameworks</span> <span class='badge'>Processing</span>`,
 			`• 2D Computer Graphics <span class='badge'>HTML Canvas</span>`,
@@ -194,17 +211,18 @@ Eliminated manual workflows by designing a scalable laser manufacturing farm at 
 			`• AR/VR`,
 			`• MIDI control in <span class='badge'>Ableton Live</span>`,
 		],
-	],
-	[
-		'Product Ownership',
-		[
+	},
+	{
+		title: 'Product Ownership',
+		hidden: true,
+		items: [
 			`• Scrum Methodology`,
 			`• Process Optimisation`,
 			`• Project Management Tools <span class='badge'>ZOHO</span>`,
 			`• Strong Leadership`,
 			`• Good results under Stress`,
 		],
-	],
+	},
 ]
 
 export const reviews = [
@@ -233,7 +251,93 @@ export const reviews = [
 export const projects = [
 	{
 		info: {
-			name: `Alenashop`,
+			name: `Alena Souvenirs - Manufacturing`,
+			description: `From Manual Craft to a Fully Automated Laser Factory`,
+			thumbnail: `0.jpg`,
+		},
+		metadata: {
+			date: `2024`,
+			responsibilities: `End-to-end process redesign, software & hardware automation`,
+			client: `Alenashop`,
+			tools: `NextJS, SVG processing, Computer Vision, G-Code, ESP32, Metalworking, 3D Printing`,
+			status: `Freelance / Part-time`,
+		},
+		settings: {
+			highlight: true,
+			locked: true,
+		},
+		sections: [
+			{
+				file: `2.mp4`,
+				title: `Baseline process - manual production`,
+				description: `Making a refrigerator magnet started entirely by hand. Operators glued a printed A3 sheet onto MDF, then cut back-, mid-, and foreground layers separately. Each layer had to be glued perfectly on top of the previous one so contours matched. Each magnet took several minutes, required skilled hands, and was expensive to scale.`,
+			},
+			{
+				file: `3.mp4`,
+				title: `Print-and-cut alignment on CO₂ lasers`,
+				description: `Cutting on large CO₂ lasers requires precise alignment with the glued print. Because the paper is glued manually, it can be slightly shifted, rotated, or scaled, and simple mechanical stops cannot correct this. Overhead cameras are too low-resolution to detect the print accurately. Standard print-and-cut in LightBurn software uses two small crosses printed on the sheet. Operators first navigate roughly to a cross using arrow keys, then adjust movement speed and carefully nudge the laser in sub-millimeter increments until the laser beam is centered on the cross. They mark this position in LightBurn, then repeat the process for the second cross, adjusting speed and position each time. This must be done with sub-millimeter precision dozens of times per shift.`,
+			},
+			{
+				file: `4.mp4`,
+				title: `Camera on the laser head - automatic alignment`,
+				description: `I mounted an ESP32 camera directly on the laser head. The camera detects the printed cross markers regardless of rotation or scale. A feedback loop calculates the necessary laser head movement. During this phase, LightBurn is driven via simulated keyboard and mouse inputs to move the laser accordingly. This fully automates alignment, eliminating any manual adjustment.`,
+			},
+			{
+				file: '6.mp4',
+				title: `Switching from CO₂ lasers to a scalable diode laser farm`,
+				description: `CO₂ lasers are large, expensive, require chillers, frequent mirror/lens cleaning, and extract smoke from the entire chamber, contaminating optics and mechanics. Scaling multiplies these issues. I switched to non-traditional, compact, relatively cheap 70 W diode lasers (minimum 1/4 the cost) and designed a modular rack with pull-out drawers for maintenance, shared air/exhaust channels, and centralized USB. Diode lasers provide G-Code support which allowed full control and automation through a custom system. A custom tray provides a fixed 0,0 reference for camera alignment, acts as a laser-safe floor, allows quick insertion and extraction of sheets, and seals against a suction funnel that extracts smoke directly at the cutting point. Fumes never reach optics or mechanics, enabling compact, low-maintenance, horizontally scalable operation.`,
+			},
+			{
+				file: `5.png`,
+				title: `All-in-one system`,
+				description: `I built a unified system that addresses multiple problems at once: file management between designers and operators, automated rendering and layer previews, job selection and dispatch, printer and laser control via G-Code, computer-vision–based cross alignment, and centralized machine calibration and settings`,
+			},
+			{
+				file: `7.mp4`,
+				title: `Graphic and printing workflow`,
+				description: `Previously, designers shared CorelDRAW files and PDF/SVG exports with machine operators via messenger, often losing track of versions. Separately, each product required manual file preparation: splitting the image into layers, applying ink-saving for covered regions, adding pixel bleed for cutting tolerance, and laying out A3 print and cut batches—all by hand. I replaced this with a fully automated pipeline: the designer uploads a minimal SVG containing a single picture and cutting outlines for the fore-, mid-, and background layers, and the system generates machine-ready PDFs and laser-ready SVGs per layer with ink-saving masks and bleed automatically. Once files are prepared, operators no longer face the tedious Windows printing process — manually selecting paper size, tray, color profile, and quantity. Instead, all settings are saved as presets, allowing printing with a single click.`,
+			},
+			{
+				file: `8.mp4`,
+				title: `Gluing and loading into the machine`,
+				description: `The operator glues the printed sheet onto the MDF, places it into a custom tray, and inserts the tray into the modular rack in one smooth motion. This ensures precise positioning for the camera and cutting process.`,
+			},
+			{
+				file: `9.mp4`,
+				title: `Automatic print-and-cut execution`,
+				description: `The operator selects a layer and triggers automatic alignment with a single click. Previously, cross registration required manual marking and keyboard/mouse simulation in LightBurn. Now, the custom software drives the laser via G-Code: it detects cross markers using camera feedback, computes the transformation matrix, and applies it to the SVG. Material presets automatically load cutting speed and power, and the cut starts fully automatically.`,
+			},
+			{
+				file: `10.mp4`,
+				title: `Fast unloading`,
+				description: `After cutting, the tray is removed as a whole. Parts drop out immediately, eliminating manual removal and minimizing idle time between jobs.`,
+			},
+			{
+				file: `11.mp4`,
+				title: `Smart-cut mode: Batch gluing via partial pre-cuts`,
+				description: `Previously, each layer was cut and glued individually, requiring precise manual alignment. I redesigned the process: MDF sheets are first partially cut—only alignment holes and internal features—so the sheets remain whole and easy to handle, saving significant time. Multiple sheets are then stacked on alignment pins, glued as a single block, and returned to the laser for the final cut. Additional cutouts are included in the SVG to prevent glue from touching visible graphics. Small parts are only separated at the very end as a fully glued product. This ensures perfect alignment while drastically reducing manual labor.`,
+			},
+			{
+				file: `12.mp4`,
+				title: `Final contour cut with depth-aware logic`,
+				description: `The final cut separates the finished products from the glued stack. Since the stack contains multiple layers, some areas need to be cut through all three layers, while others only through one or two. The SVG pipeline classifies contours by material depth using boolean operations and assigns different colors encoding laser power and speed. This ensures each area is cut with the appropriate intensity, maximizing efficiency and minimizing total processing time.`,
+			},
+			{
+				file: `13.mp4`,
+				title: `Finished product`,
+				description: `After the final cut, fully assembled magnets drop directly out of the stack. The process requires minimal dexterity or training, and four diode lasers can produce up to 1,000 units per day.`,
+			},
+			{
+				file: `14.mp4`,
+				title: `System tooling and diagnostics`,
+				hidden: true,
+				description: `The software includes camera offset calibration, laser focus calibration, mid-job resume and partial re-cutting, machine configuration management, and scalable onboarding of additional laser machines.`,
+			},
+		],
+	},
+	{
+		info: {
+			name: `Alena Souvenirs - Alenashop.de`,
 			description: `Highly personalized Bookkeeping Software for a wholesale and manufacturing Company`,
 			thumbnail: `0.jpg`,
 		},
@@ -241,12 +345,12 @@ export const projects = [
 			'date': `2020`,
 			'responsibilities': 'UX/UI and Full-Stack Development',
 			'client': `Alenashop`,
-			'tools': `Svelte, Docker, NodeJs, PostgreSQL`,
+			'tools': `Svelte, Docker, NodeJS, PostgreSQL`,
 			'status': `Freelance Part-Time`,
 			'project url': `<a href="https://www.figma.com/file/rrWWHHvsORpWOLpRNi6T19/Application?type=design&node-id=53%3A697&t=Gfi6wtdSEloOxvZY-1" target="_blank">Figma File</a>`,
 		},
 		settings: {
-			highlight: true,
+			highlight: false,
 		},
 		sections: [
 			{
@@ -436,7 +540,7 @@ export const projects = [
 			'date': `2017`,
 			'responsibilities': 'Concept, Graphic Design and Software',
 			'client': `YanFeng @MESO`,
-			'tools': `VVVV, JavaScript, NodeJs`,
+			'tools': `VVVV, JavaScript, NodeJS`,
 			'status': `Full-Time`,
 			'project url': `<a href="https://meso.design/en/projects/yanfeng-kinetic-seat-and-media-elements-for-autonomous-car-concept" target="_blank">Project Page</a>`,
 		},
@@ -541,7 +645,7 @@ export const projects = [
 			date: `2018`,
 			responsibilities: 'Concept, Software Prototyping, Filmmaking and CGI',
 			client: `BASF @MESO`,
-			tools: `Concept, JavaScript, NodeJs, After-Effects, Camera`,
+			tools: `Concept, JavaScript, NodeJS, After-Effects, Camera`,
 			status: `Full-Time`,
 		},
 		settings: {
@@ -580,11 +684,12 @@ export const projects = [
 			description: 'Digital presenter for the industry brand showroom',
 			thumbnail: '4.jpg',
 		},
+		settings: {hidden: true},
 		metadata: {
 			'date': `2016`,
 			'responsibilities': 'Concept, Storyboards and Software',
 			'client': `KUKA @MESO`,
-			'tools': `VVVV, NodeJs`,
+			'tools': `VVVV, NodeJS`,
 			'status': `Full-Time`,
 			'project url': `<a href="https://meso.design/en/projects/kuka-robotic-showroom-for-industry-brand-experience" target="_blank">Project Page</a>`,
 		},
@@ -761,7 +866,7 @@ export const projects = [
 			'date': `2018`,
 			'responsibilities': 'Idea, Industrial Design, Hardware and Software',
 			'client': `Care Robot @Bauhaus University`,
-			'tools': `RaspberryPi, NodeJs, Python`,
+			'tools': `RaspberryPi, NodeJS, Python`,
 			'status': `University Project`,
 			'project url': `<a href="https://youtu.be/HpON28BZiOs" target="_blank">YouTube</a>`,
 		},
@@ -815,6 +920,7 @@ export const projects = [
 			description: 'The experimental way to represent time and data in Virtual Reality',
 			thumbnail: '0.png',
 		},
+		settings: {hidden: true},
 		metadata: {
 			date: `2017`,
 			responsibilities: 'Idea and Software',
@@ -936,6 +1042,7 @@ export const projects = [
 			description: 'Permanent installation in Volksbank',
 			thumbnail: '0.png',
 		},
+		settings: {hidden: true},
 		metadata: {
 			'date': `2015`,
 			'responsibilities': 'Typography, Choreography and Generative Design',
@@ -987,6 +1094,7 @@ export const projects = [
 		},
 		settings: {
 			highlight: true,
+			hidden: true,
 		},
 		sections: [
 			{
@@ -999,7 +1107,7 @@ export const projects = [
 				file: '1.jpg',
 				title: 'Ring rotates, pucks are falling',
 				description:
-					'Pucks are user\'s todos, and the ring is a "one month" clock. Once the right day hits, the puck falls on the floor and forces you to engage into the decision process - do it now or later. ReMind in depth <a href="http://www.pleasurabletroublemakers.com/remind-en" target="blank">here</a>.',
+					'Pucks are user\'s todos, and the ring is a "one month" clock. Once the right day hits, the puck falls on the floor and forces you to engage into the decision process - do it now or later. ReMind in depth <a href="http://www.pleasurabletroublemakers.com/remind-en" target="_blank">here</a>.',
 			},
 			{
 				file: '2.jpg',
@@ -1126,6 +1234,7 @@ export const projects = [
 			description: 'Various 3D-Motion-Graphics',
 			thumbnail: '0.jpg',
 		},
+		settings: {hidden: true},
 		metadata: {
 			responsibilities: '3D-Animation',
 			tools: `Cinema4D, AfterEffects, Photoshop`,
@@ -1212,6 +1321,7 @@ export const projects = [
 			description: 'Generative grids and motion graphics',
 			thumbnail: '0.jpg',
 		},
+		settings: {hidden: true},
 		metadata: {
 			'date': `2014`,
 			'responsibilities': 'Software and Motion-Graphics',
@@ -1258,6 +1368,7 @@ export const projects = [
 			description: 'A bit of digital craft',
 			thumbnail: '0.jpg',
 		},
+		settings: {hidden: true},
 		metadata: {
 			date: `2014`,
 			responsibilities: 'Sketching',

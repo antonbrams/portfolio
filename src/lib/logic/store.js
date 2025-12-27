@@ -15,3 +15,8 @@ export const show_all_projects = (() => {
 	const store = writable(false)
 	return {...store, get: () => get(store)}
 })()
+
+export const show_all_skills = (() => {
+	const store = writable(false)
+	return {...store, get: () => get(store)}
+})()

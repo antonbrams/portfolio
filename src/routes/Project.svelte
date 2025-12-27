@@ -11,12 +11,7 @@
 
 	export let params = {}
 
-	const {
-		info,
-		metadata = {},
-		sections,
-		settings,
-	} = projects.find(p => p.info.name == params.name)
+	const {info, metadata = {}, sections, settings} = projects.find(p => p.info.name == params.name)
 
 	if (settings?.locked && protect_with_pin()) push('/')
 
@@ -49,7 +44,7 @@
 
 {#each sections.filter(s => !s.hidden) as { title, description, file }, i}
 	<Section class="flex flex-col">
-		<div class="contrast-[.85]">
+		<div>
 			{#if ['jpg', 'png'].includes(file.split('.')[1])}
 				<a href={`/projects/${info.name}/${file}`} target="_blank">
 					<img
@@ -82,9 +77,7 @@
 	</Section>
 
 	{#if i == 0}
-		<Section
-			class="grid grid-cols-[repeat(auto-fit,minmax(310px,1fr))] gap grid-flow-dense"
-		>
+		<Section class="grid grid-cols-[repeat(auto-fit,minmax(310px,1fr))] gap grid-flow-dense">
 			{#each Object.entries(metadata) as [key, value], i}
 				<div
 					class="grid grid-rows-[1fr_auto] text-center gap items-center rounded-10 bg-sa p-10 pb"
