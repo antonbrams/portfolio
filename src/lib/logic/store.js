@@ -2,12 +2,15 @@ import {writable, get} from 'svelte/store'
 
 export const protect_with_pin = (() => {
 	const hidden_locked = writable(true)
-	return () => {
-		if (get(hidden_locked)) {
-			if (prompt('Enter Pin')?.toLowerCase() !== 'hello') return true
-			hidden_locked.set(false)
-		}
-		return false
+	return {
+		prompt: () => {
+			if (get(hidden_locked)) {
+				if (prompt('Enter Pin')?.toLowerCase() !== 'hello') return true
+				hidden_locked.set(false)
+			}
+			return false
+		},
+		is_locked: () => get(hidden_locked),
 	}
 })()
 

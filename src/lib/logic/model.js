@@ -1,12 +1,41 @@
 export const teaser = 'https://www.youtube.com/embed/ZT73xujv4M4'
 
-export const intro = `I help founders build <span class='highlight'>innovative products or optimize complex processes</span> by architecting end-to-end MVPs and systems — from user experience to technical execution.`
+export const intro = `I help founders build <span class='highlight'>in&shy;no&shy;va&shy;tive prod&shy;ucts and stream&shy;line com&shy;plex sys&shy;tems</span> by ar&shy;chi&shy;tect&shy;ing end-to-end MVPs and hy&shy;brid so&shy;lu&shy;tions — from user ex&shy;pe&shy;ri&shy;ence to tech&shy;ni&shy;cal ex&shy;e&shy;cu&shy;tion.`
 
-export const sub = `I’m a Principal Innovation Architect who tackles complex, cross-domain challenges like those handled in R&D labs such as Apple Future Interfaces or Google ATAP. I design and build digital and hybrid systems spanning user experience, interface and product logic, software architecture, algorithms, data, and, when needed, hardware and manufacturing. My solutions reduce costs and unlock new capabilities; I focus on creating coherent architectures that cannot be assembled by isolated specialists, quickly identifying root problems and turning ideas into working systems.`
+export const sub = `I’m a Principal Innovation Architect tackling complex, cross-domain challenges like those handled in R&D labs such as Apple Future Interfaces or Google ATAP. I design digital and hybrid systems spanning UX, product logic, software architecture, algorithms, data, and, when needed, hardware and manufacturing. My solutions reduce costs, unlock new capabilities, and create coherent architectures that cannot be assembled by isolated specialists — quickly identifying root problems and turning ideas into working systems.`
 
 export const about = [
 	{
+		title: 'Expertise',
+		items: [
+			"<span class='badge'>Principal Innovation Architect</span> — designs end-to-end systems spanning UX, software, hardware, and manufacturing. Cross-domain expertise in human interaction, algorithms, electronics, and production workflows. Work reduces costs, eliminates manual labor, and enables entirely new workflows.",
+		],
+	},
+	{
+		title: 'Key Projects & Ventures',
+		items: [
+			"<span class='badge'>Alena Souvenirs</span> — Architected and built a fully automated, scalable laser manufacturing system and developed a highly personalized bookkeeping platform for wholesale and manufacturing operations.<br/><br/>",
+			"<span class='badge'>dreiform</span> — Architected and prototyped an AI-driven platform for intelligent human-to-task matching.<br/><br/>",
+			"Co-Founder of <span class='badge'>Touchboard</span> — R&D startup developing advanced haptic human–machine interfaces. Raised €200k through public funding and accelerators.<br/><br/>",
+		],
+	},
+	{
+		title: 'Professional Roles',
+		items: [
+			"<span class='badge'>MESO Digital Interiors</span> — Technical UX, system design, and full-stack development for industrial and enterprise clients.<br/><br/>",
+			"<span class='badge'>Adversign Media</span> — Product Owner for software & hardware-driven products.<br/><br/>",
+		],
+	},
+	{
+		title: 'Education',
+		items: [
+			"<span class='badge'>M.Sc. Human-Computer Interaction</span> at Bauhaus — advanced HCI, computer graphics, AR/VR, cognitive systems.<br/><br/>",
+			"<span class='badge'>B.A. Industrial Design</span> at Folkwang — materials, manufacturing, ergonomics, generative design.<br/><br/>",
+		],
+	},
+	{
 		title: 'Projects',
+		hidden: true,
 		items: [
 			`<span class='badge'>Nov 2024 – Aug 2025</span> Eliminated manual workflows by designing a scalable laser manufacturing farm at <a target="_blank" href="https://alenashop.de">Alena Souvenirs</a>.<br/><br/>`,
 			`<span class='badge'>Jan 2023 - Nov 2024</span> Freelancing remotely on AI and web full-stack projects for <a target="_blank" href="http://meso.design">MESO Digital Interiors GmbH</a> and <a target="_blank" href="http://dreiform.de">dreiform GmbH</a>.<br/><br/>`,
@@ -14,7 +43,8 @@ export const about = [
 		],
 	},
 	{
-		title: 'Work Experience',
+		title: 'Professional Roles',
+		hidden: true,
 		items: [
 			`<span class='badge'>Oct 2024 - now</span> Part-Time Technical UX at <a target="_blank" href="http://meso.design">MESO Digital Interiors GmbH</a>. <br/><br/>`,
 			`<span class='badge'>Oct 2022 - Jan 2023</span> Product Owner full-time at Soft & Hardware Product Company <a target="_blank" href="https://www.adversign-media.de">Adversign Media GmbH </a> in Germany/Düsseldorf.<br/><br/>`,
@@ -25,6 +55,7 @@ export const about = [
 	},
 	{
 		title: 'Education',
+		hidden: true,
 		items: [
 			`<span class='badge'>Apr 2017 - Nov 2019</span> Human-Computer Interaction M.S. at <a target="_blank" href="https://www.uni-weimar.de/en/media/studies/human-computer-interaction-msc/">Bauhaus Universität Weimar</a> with 1.0 (highest grade) for Master Thesis. Courses: Advanced Human-Computer Interaction, Usability Engineering & Testing, Visualisation, Image Analysis & Recognition, Virtual & Augmented Reality, Computer Graphics, Cognitive Systems, Mobile HCI, Electronics...<br/><br/>`,
 			`<span class='badge'>Jun 2011 - Sep 2015</span> Industrial Design B.A. at <a target="_blank" href="https://www.folkwang-uni.de/home/gestaltung/studiengaenge/industrial-design/industrial-design-ba/">Folkwang Universität der Künste</a>  with 1.0 (highest grade) for Bachelorthesis. Courses: User Experience Design, Materials Science and Manufacturing Technology, Typography, Analog and Digital Representation, Ergonomics, CAD, Construction, Film, Generative Design, Design Management...<br/><br/>`,
@@ -33,6 +64,7 @@ export const about = [
 	},
 	{
 		title: `Startup`,
+		hidden: true,
 		items: [
 			`Inventor and Co-Founder of <a target="_blank" href="https://touchboard.tech">Butterfly Touchboard</a> GbR Haptic Interfaces R&D Startup. <br/><br/>`,
 			`<span class='badge'>Jan 2022</span> Design Protection certificate.<br/><br/>`,
@@ -48,6 +80,7 @@ export const about = [
 	},
 	{
 		title: 'Internships',
+		hidden: true,
 		items: [
 			`<span class='badge'>Nov 2014 - May 2015</span> UX/UI & Generative Design internship at <a target="_blank" href="http://dreiform.de">dreiform GmbH</a> in Germany/Cologne, working for Telekom, 3M, Union Investment, SLV, Victrex, Avery, Lohmann, Schein...<br/><br/>`,
 			`<span class='badge'>Jul 2011 - Aug 2011</span> Graphic Design & Photography internship at <a target="_blank" href="https://www.ihr-foto-profi.de">Ihr-photo-profi.de</a> in Germany/Oberhausen.`,
@@ -55,20 +88,14 @@ export const about = [
 	},
 	{
 		title: 'Teaching',
+		hidden: true,
 		items: [
 			`<span class='badge'>Nov 2023 - Feb 2024</span> Lecturer for the “Interaction II” course, teaching Design Systems and React-based UI development at the <a target="_blank" href="https://www.hbk-essen.de/de/digital-media-design">Hochschule der Bildenden Künste Essen</a>.<br/><br/>`,
 		],
 	},
 	{
-		title: 'Core Expertise',
-		items: [
-			`• Innovation Architect / Designer / System Creator Role<br/><br/>`,
-			`• Human Interaction + Software + Hardware Scope<br/><br/>`,
-			`• Impact: Makes Complexity Invisible, Enables New Possibilities through Innovation, and Automates Complex Processes<br/><br/>`,
-		],
-	},
-	{
 		title: 'Languages',
+		hidden: true,
 		items: [
 			`• English <span class='badge'>C1</span>`,
 			`• German <span class='badge'>C2</span>`,
@@ -283,52 +310,57 @@ export const projects = [
 				description: `I mounted an ESP32 camera directly on the laser head. The camera detects the printed cross markers regardless of rotation or scale. A feedback loop calculates the necessary laser head movement. During this phase, LightBurn is driven via simulated keyboard and mouse inputs to move the laser accordingly. This fully automates alignment, eliminating any manual adjustment.`,
 			},
 			{
-				file: '6.mp4',
+				file: '5.mp4',
 				title: `Switching from CO₂ lasers to a scalable diode laser farm`,
 				description: `CO₂ lasers are large, expensive, require chillers, frequent mirror/lens cleaning, and extract smoke from the entire chamber, contaminating optics and mechanics. Scaling multiplies these issues. I switched to non-traditional, compact, relatively cheap 70 W diode lasers (minimum 1/4 the cost) and designed a modular rack with pull-out drawers for maintenance, shared air/exhaust channels, and centralized USB. Diode lasers provide G-Code support which allowed full control and automation through a custom system. A custom tray provides a fixed 0,0 reference for camera alignment, acts as a laser-safe floor, allows quick insertion and extraction of sheets, and seals against a suction funnel that extracts smoke directly at the cutting point. Fumes never reach optics or mechanics, enabling compact, low-maintenance, horizontally scalable operation.`,
 			},
 			{
-				file: `5.png`,
+				file: `6.png`,
 				title: `All-in-one system`,
 				description: `I built a unified system that addresses multiple problems at once: file management between designers and operators, automated rendering and layer previews, job selection and dispatch, printer and laser control via G-Code, computer-vision–based cross alignment, and centralized machine calibration and settings`,
 			},
 			{
-				file: `7.mp4`,
-				title: `Graphic and printing workflow`,
-				description: `Previously, designers shared CorelDRAW files and PDF/SVG exports with machine operators via messenger, often losing track of versions. Separately, each product required manual file preparation: splitting the image into layers, applying ink-saving for covered regions, adding pixel bleed for cutting tolerance, and laying out A3 print and cut batches—all by hand. I replaced this with a fully automated pipeline: the designer uploads a minimal SVG containing a single picture and cutting outlines for the fore-, mid-, and background layers, and the system generates machine-ready PDFs and laser-ready SVGs per layer with ink-saving masks and bleed automatically. Once files are prepared, operators no longer face the tedious Windows printing process — manually selecting paper size, tray, color profile, and quantity. Instead, all settings are saved as presets, allowing printing with a single click.`,
+				file: `7.png`,
+				title: `SVG Pipeline`,
+				description: `Previously, designers shared CorelDRAW files and PDF/SVG exports with machine operators via messenger, often losing track of versions. Separately, each product required manual file preparation: splitting the image into layers, applying ink-saving for covered regions, adding pixel bleed for cutting tolerance, and laying out A3 print and cut batches—all by hand. I replaced this with a fully automated pipeline: the designer uploads a minimal SVG containing a single picture and cutting outlines for the fore-, mid-, and background layers, and the system generates machine-ready PDFs and laser-ready SVGs per layer with ink-saving masks and bleed automatically.`,
 			},
 			{
 				file: `8.mp4`,
+				title: `Printing with a single Click`,
+				description: `Once files are prepared, operators no longer face the tedious Windows printing process — manually selecting paper size, tray, color profile, and quantity. Instead, all settings are saved as presets, allowing printing with a single click.`,
+			},
+			{
+				file: `9.mp4`,
 				title: `Gluing and loading into the machine`,
 				description: `The operator glues the printed sheet onto the MDF, places it into a custom tray, and inserts the tray into the modular rack in one smooth motion. This ensures precise positioning for the camera and cutting process.`,
 			},
 			{
-				file: `9.mp4`,
+				file: `10.mp4`,
 				title: `Automatic print-and-cut execution`,
 				description: `The operator selects a layer and triggers automatic alignment with a single click. Previously, cross registration required manual marking and keyboard/mouse simulation in LightBurn. Now, the custom software drives the laser via G-Code: it detects cross markers using camera feedback, computes the transformation matrix, and applies it to the SVG. Material presets automatically load cutting speed and power, and the cut starts fully automatically.`,
 			},
 			{
-				file: `10.mp4`,
+				file: `11.mp4`,
 				title: `Fast unloading`,
 				description: `After cutting, the tray is removed as a whole. Parts drop out immediately, eliminating manual removal and minimizing idle time between jobs.`,
 			},
 			{
-				file: `11.mp4`,
+				file: `12.mp4`,
 				title: `Smart-cut mode: Batch gluing via partial pre-cuts`,
 				description: `Previously, each layer was cut and glued individually, requiring precise manual alignment. I redesigned the process: MDF sheets are first partially cut—only alignment holes and internal features—so the sheets remain whole and easy to handle, saving significant time. Multiple sheets are then stacked on alignment pins, glued as a single block, and returned to the laser for the final cut. Additional cutouts are included in the SVG to prevent glue from touching visible graphics. Small parts are only separated at the very end as a fully glued product. This ensures perfect alignment while drastically reducing manual labor.`,
 			},
 			{
-				file: `12.mp4`,
+				file: `13.mp4`,
 				title: `Final contour cut with depth-aware logic`,
 				description: `The final cut separates the finished products from the glued stack. Since the stack contains multiple layers, some areas need to be cut through all three layers, while others only through one or two. The SVG pipeline classifies contours by material depth using boolean operations and assigns different colors encoding laser power and speed. This ensures each area is cut with the appropriate intensity, maximizing efficiency and minimizing total processing time.`,
 			},
 			{
-				file: `13.mp4`,
+				file: `14.mp4`,
 				title: `Finished product`,
 				description: `After the final cut, fully assembled magnets drop directly out of the stack. The process requires minimal dexterity or training, and four diode lasers can produce up to 1,000 units per day.`,
 			},
 			{
-				file: `14.mp4`,
+				file: `15.mp4`,
 				title: `System tooling and diagnostics`,
 				hidden: true,
 				description: `The software includes camera offset calibration, laser focus calibration, mid-job resume and partial re-cutting, machine configuration management, and scalable onboarding of additional laser machines.`,
@@ -444,7 +476,7 @@ export const projects = [
 			'client': `Butterfly Company`,
 			'tools': `Arduino, Eagle, Figma, JavaScript`,
 			'status': `Selfemployed Full-Time`,
-			'project url': `<a href="https://www.youtube.com/playlist?list=PLIIcLdscAJU8TSejQCNW-Tc52-Lw_5AM_" target="_blank">YouTube Playlist</a>`,
+			'project url': `<a href="https://www.youtube.com/playlist?list=PLIIcLdscAJU8TSejQCNW-Tc52-Lw_5AM_" target="_blank">Full Demo</a>`,
 		},
 		settings: {
 			highlight: true,
@@ -638,7 +670,7 @@ export const projects = [
 	{
 		info: {
 			name: 'BASF',
-			description: 'Intuitive digital system for collective brainstomings using multiple devices',
+			description: 'Intuitive digital system for collective brainstormings using multiple devices',
 			thumbnail: '0.png',
 		},
 		metadata: {
@@ -654,7 +686,7 @@ export const projects = [
 		sections: [
 			{
 				file: '4.mp4',
-				title: 'Intuitive digital system for collective brainstomings using multiple devices',
+				title: 'Intuitive digital system for collective brainstormings using multiple devices',
 				description:
 					'BASF provides expert support for their customers in selecting the best materials for their application. Therefore, it comes to collective brainstomings.',
 			},
@@ -666,13 +698,13 @@ export const projects = [
 			},
 			{
 				file: '2.mp4',
-				title: 'The coach logs in and the brainstoming starts',
+				title: 'The coach logs in and the brainstorming starts',
 				description:
 					'The system reads <i>RFID</i> tags, and automatically logs participants into the meeting room.',
 			},
 			{
 				file: '3.mp4',
-				title: 'brainstoming happens directly on the wall or from your device',
+				title: 'brainstorming happens directly on the wall or from your device',
 				description:
 					'The movie mockup was made with <i>green screen</i> technique, <i>2D tracking</i>, <i>Adobe After Effects</i> and <i>Adobe Premiere</i>. The functional prototype was implemented in <i>JavaScript</i> and <i>Node Js</i>, communicating via <i>WebSocket</i>.',
 			},
