@@ -37,7 +37,7 @@
 /* TABLET */
 @media screen and (min-width: 760px) and (min-height: 700px) {
 	:root {
-		--t30: 5rem;
+		--t30: 4rem;
 		--t20: 3rem;
 		--t10: 1.6rem;
 		--default-grid: 250px;
@@ -47,7 +47,7 @@
 /* DESKTOP */
 @media screen and (min-width: 1781px) and (min-height: 1024px) {
 	:root {
-		--t30: 6rem;
+		--t30: 5rem;
 		--t20: 3.5rem;
 		--t10: 1.6rem;
 		--default-grid: 300px;

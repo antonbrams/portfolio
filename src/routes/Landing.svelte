@@ -1,5 +1,5 @@
 <script>
-	import {intro, sub, teaser, about, reviews, projects} from '$lib/logic/model.js'
+	import {intro, teaser, about, reviews, projects} from '$lib/logic/model.js'
 	import {protect_with_pin, show_all_projects, show_all_skills} from '$lib/logic/store.js'
 	import {push} from 'svelte-spa-router'
 	import {mdiLock, mdiLockOpenVariant} from '@mdi/js'
@@ -16,8 +16,7 @@
 </script>
 
 <Section first class="flex flex-col items-center justify-center min-h-full gap-30">
-	<span class="text-20 tablet:text-30 header tablet:text-center max-w-[24ch]">{@html intro}</span>
-	<span class="max-w-[60ch] tablet:border-l-2 tablet:border-sa tablet:pl-10">{@html sub}</span>
+	<span class="text-20 tablet:text-30 header tablet:text-center max-w-[26ch]">{@html intro}</span>
 	<div class="flex flex-wrap gap">
 		<button class="mobile:w-full" on:click={e => (location.href = 'mailto:hello@antonbrams.io')}>
 			Get in Touch

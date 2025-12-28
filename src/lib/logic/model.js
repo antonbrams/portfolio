@@ -2,13 +2,13 @@ export const teaser = 'https://www.youtube.com/embed/ZT73xujv4M4'
 
 export const intro = `I help founders build <span class='highlight'>in&shy;no&shy;va&shy;tive prod&shy;ucts and stream&shy;line com&shy;plex sys&shy;tems</span> by ar&shy;chi&shy;tect&shy;ing end-to-end MVPs and hy&shy;brid so&shy;lu&shy;tions — from user ex&shy;pe&shy;ri&shy;ence to tech&shy;ni&shy;cal ex&shy;e&shy;cu&shy;tion.`
 
-export const sub = `I’m a Principal Innovation Architect tackling complex, cross-domain challenges like those handled in R&D labs such as Apple Future Interfaces or Google ATAP. I design digital and hybrid systems spanning UX, product logic, software architecture, algorithms, data, and, when needed, hardware and manufacturing. My solutions reduce costs, unlock new capabilities, and create coherent architectures that cannot be assembled by isolated specialists — quickly identifying root problems and turning ideas into working systems.`
-
 export const about = [
 	{
 		title: 'Expertise',
 		items: [
-			"<span class='badge'>Principal Innovation Architect</span> — designs end-to-end systems spanning UX, software, hardware, and manufacturing. Cross-domain expertise in human interaction, algorithms, electronics, and production workflows. Work reduces costs, eliminates manual labor, and enables entirely new workflows.",
+			`I’m a <span class='badge'>Principal Innovation Architect</span> tackling complex, cross-domain challenges like those handled in R&D labs such as Apple Future Interfaces or Google ATAP.<br/><br/>`,
+			`I design digital and hybrid systems spanning UX, product logic, software architecture, algorithms, data, and, when needed, hardware and manufacturing.<br/><br/>`,
+			`My solutions reduce costs, unlock new capabilities, and create coherent architectures that cannot be assembled by isolated specialists — quickly identifying root problems and turning ideas into working systems.<br/><br/>`,
 		],
 	},
 	{
