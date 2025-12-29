@@ -1,14 +1,12 @@
 export const teaser = 'https://www.youtube.com/embed/ZT73xujv4M4'
 
-export const intro = `I help founders build <span class='highlight'>in&shy;no&shy;va&shy;tive prod&shy;ucts and stream&shy;line com&shy;plex sys&shy;tems</span> by ar&shy;chi&shy;tect&shy;ing end-to-end MVPs and hy&shy;brid so&shy;lu&shy;tions — from user ex&shy;pe&shy;ri&shy;ence to tech&shy;ni&shy;cal ex&shy;e&shy;cu&shy;tion.`
+export const intro = `I help foun&shy;ders turn bold ideas into <span class='highlight'>inno&shy;vative B2C MVPs</span> that vali&shy;date con&shy;cepts and scale with a team, or build im&shy;pactful <span class='highlight'>B2B auto&shy;mations</span> that stream&shy;line work&shy;flows.`
 
 export const about = [
 	{
 		title: 'Expertise',
 		items: [
-			`I’m a <span class='badge'>Principal Innovation Architect</span> tackling complex, cross-domain challenges like those handled in R&D labs such as Apple Future Interfaces or Google ATAP.<br/><br/>`,
-			`I design digital and hybrid systems spanning UX, product logic, software architecture, algorithms, data, and, when needed, hardware and manufacturing.<br/><br/>`,
-			`My solutions reduce costs, unlock new capabilities, and create coherent architectures that cannot be assembled by isolated specialists — quickly identifying root problems and turning ideas into working systems.<br/><br/>`,
+			`I'm <span class='badge'>I’m a Principal Innovation Architect</span>. I envision, design, and prototype the fundamental solution in its most effective form—process, app, or device—delivering real-world solutions that tackle multiple challenges at once. I bring the creativity and rigor of labs like Apple Future Interfaces and Google ATAP to create hybrid solutions that combine design, software, and hardware.`,
 		],
 	},
 	{
