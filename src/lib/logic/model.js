@@ -1,12 +1,12 @@
 export const teaser = 'https://www.youtube.com/embed/ZT73xujv4M4'
 
-export const intro = `I help foun&shy;ders turn bold ideas into <span class='highlight'>inno&shy;vative B2C MVPs</span> that vali&shy;date con&shy;cepts and scale with a team, or build im&shy;pactful <span class='highlight'>B2B auto&shy;mations</span> that stream&shy;line work&shy;flows.`
+export const intro = `I help foun&shy;ders turn bold ideas into <span class='highlight'>inno&shy;vative B2C MVPs</span> that vali&shy;date con&shy;cepts and scale with a team, or build <span class='highlight'>B2B auto&shy;mations</span> that stream&shy;line work&shy;flows and deliver measur&shy;able results.`
 
 export const about = [
 	{
 		title: 'Expertise',
 		items: [
-			`I'm <span class='badge'>I’m a Principal Innovation Architect</span>. I envision, design, and prototype the fundamental solution in its most effective form—process, app, or device—delivering real-world solutions that tackle multiple challenges at once. I bring the creativity and rigor of labs like Apple Future Interfaces and Google ATAP to create hybrid solutions that combine design, software, and hardware.`,
+			`I'm <span class='badge'>I’m a Principal Innovation Architect</span>. I envision, design, and prototype solutions that tackle multiple challenges at once. I shape them into their most effective form—process, an app, AI agent, car dashboard, or consumer electronics—integrating design, software, and hardware, in the spirit of R&D labs like Apple Future Interfaces and Google ATAP.`,
 		],
 	},
 	{
