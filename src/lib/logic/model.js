@@ -1,4 +1,4 @@
-export const teaser = 'https://www.youtube.com/embed/ZT73xujv4M4'
+export const teaser = 'https://www.youtube.com/embed/ABIOwkZ4QCU'
 
 export const intro = `I help foun&shy;ders turn bold ideas into <span class='highlight'>inno&shy;vative B2C MVPs</span> that vali&shy;date con&shy;cepts and scale with a team, or build <span class='highlight'>B2B auto&shy;mations</span> that stream&shy;line work&shy;flows and deliver measur&shy;able results.`
 
