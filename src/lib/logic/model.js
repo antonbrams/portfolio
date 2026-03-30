@@ -276,6 +276,50 @@ export const reviews = [
 export const projects = [
 	{
 		info: {
+			name: 'Ava',
+			description: 'Production AI agent I live inside daily',
+			thumbnail: '0.jpg',
+		},
+		metadata: {
+			date: '2025',
+			responsibilities: 'Architecture, Agent Framework, Memory System, Tool Infrastructure, Voice Interface',
+			client: 'Personal',
+			tools: 'DeepAgents, LangGraph, LangChain, MCP SDK, NodeJS, Express, Telegraf, Playwright, SSE, WebSocket, Whisper, Piper',
+			status: 'Solo',
+		},
+		settings: {
+			highlight: true,
+		},
+		sections: [
+			{
+				file: '0.jpg',
+				title: 'Production AI agent I live inside daily',
+				description: 'I needed an AI that remembers everything, controls my machines, and enforces security on every action. Nothing on the market did all three. So I built Ava — a personal AI system I use daily through Telegram and voice. 10,600 lines. 46 days. Solo.',
+			},
+			{
+				file: '1.png',
+				title: 'One agent, many interfaces, many tools',
+				description: 'DeepAgents.js sits at the center. Plugins — Telegram, voice, test harness — connect through a Universal Bridge Protocol. Adding a new interface means implementing one adapter, not rewiring the agent. Long-term memory, short-term memory, and the entire tool infrastructure feed in as modular subsystems. Each can be developed, tested, and replaced independently.',
+			},
+			{
+				file: '2.png',
+				title: 'Memory that never forgets',
+				description: 'Most AI agents lose context once the window fills up. Ava compacts conversations into a temporal pyramid — deltas roll into days, days into months, months into years. Fact and project state extractors pull structured knowledge from raw conversations. Documents are indexed via vector search. The system prompt assembles dynamically — environment state, temporal baseline, recalled facts, conversation summary — all injected at the right granularity. A message compressor shortifies old messages past the active window. Result: context that survives indefinitely without blowing the token budget.',
+			},
+			{
+				file: '3.png',
+				title: 'Universal Service Registry — tools without code',
+				description: 'The agent controls real services — email, calendar, browser, GitHub, trading, weather. Instead of hardcoding each, I built a Universal Service Registry that normalizes all tool sources (local, MCP, API, peripherals) behind one interface. My Mac connects via inverse SSE as a self-describing peripheral — it announces its tools and schemas on connect. The agent discovers what exists at runtime. Instead of skills that force the LLM to read tutorials and handle API keys directly, new integrations are just YAML configs converted into native LLM tools. Define once, call forever. API keys injected from a secure enclave and sanitized on output — the LLM never touches sensitive data.',
+			},
+			{
+				file: '4.jpg',
+				title: 'Voice — physical interface to the agent',
+				description: 'Beyond text, Ava listens and speaks. A wearable microphone captures voice, Whisper transcribes, the agent processes, Piper speaks back. Same Universal Bridge Protocol that handles Telegram handles voice — one more adapter, zero agent changes.',
+			},
+		],
+	},
+	{
+		info: {
 			name: `Alena Souvenirs - Manufacturing`,
 			description: `From Manual Craft to a Fully Automated Laser Factory`,
 			thumbnail: `0.jpg`,
