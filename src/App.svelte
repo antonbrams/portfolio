@@ -3,13 +3,13 @@
 
 	import Landing from './routes/Landing.svelte'
 	import Project from './routes/Project.svelte'
+	import AI from './routes/AI.svelte'
 
 	const routes = {
 		'/': Landing,
+		'/ai': AI,
 		'/projects/:name': Project,
 	}
 </script>
 
 <Router {routes} restoreScrollState={true} />
-
-<div class="w-full p-20 text-center text-ml">Made with ❤ by Anton Brams</div>

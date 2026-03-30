@@ -2,6 +2,7 @@
 	import {mdiArrowLeft, mdiPlayCircle} from '@mdi/js'
 	import Icon from 'mdi-svelte'
 	import Section from '$lib/ui/Section.svelte'
+	import Footer from '$lib/ui/Footer.svelte'
 	import {projects} from '$lib/logic/model.js'
 	import {protect_with_pin} from '$lib/logic/store.js'
 	import {pop, push} from 'svelte-spa-router'
@@ -31,6 +32,7 @@
 		}))
 </script>
 
+<main class="theme-dark">
 <div
 	class="fixed cursor-pointer z-[1] left bottom bg-active rounded-full p-01 hover:scale-110 transition-transform duration-00"
 	on:click={() => pop()}
@@ -109,6 +111,9 @@
 		</Section>
 	{/if}
 {/each}
+
+<Footer />
+</main>
 
 <style>
 	.skeleton {

@@ -6,6 +6,7 @@
 	import Icon from 'mdi-svelte'
 
 	import Section from '$lib/ui/Section.svelte'
+	import Footer from '$lib/ui/Footer.svelte'
 
 	const open_project = (name, locked) => {
 		if (locked && protect_with_pin.prompt()) return
@@ -15,6 +16,7 @@
 	$: projects_filtered = projects.filter(p => $show_all_projects || !p.settings?.hidden)
 </script>
 
+<main class="theme-dark">
 <Section first class="flex flex-col items-center justify-center min-h-full gap-30">
 	<span class="text-20 tablet:text-30 header tablet:text-center max-w-[26ch]">{@html intro}</span>
 	<div class="flex flex-wrap gap">
@@ -138,3 +140,6 @@
 		{/each}
 	</div>
 </Section>
+
+<Footer />
+</main>
