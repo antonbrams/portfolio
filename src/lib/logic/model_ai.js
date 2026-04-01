@@ -3,7 +3,7 @@ export const header = {
 	title: 'Applied AI Engineer — Prototyping & Systems',
 }
 
-export const thesis = `I take products from 0 to 1. I think in systems, not layers — when I build an AI agent, I also build its memory architecture, its permission model, its physical interface. I start where there's no product yet — just an unsolved problem that needs a shape. One decision cascades — a sensor swap reshapes the housing, the firmware, the architecture above it. Most engineers stop at their layer. I follow the chain reaction through every layer until the system is in harmony. Solo. Fast. Everything below is one person, end-to-end, from the metal up.`
+export const thesis = `I take products from 0 to 1. I think in systems, not layers — when I build an AI agent, I also build its memory architecture, its permission model, its physical interface. Most engineers stop at their layer. I follow the chain reaction until the system is in harmony. Solo. Fast.`
 
 export const facts = [
 	{
