@@ -303,23 +303,29 @@ export const projects = [
 				file: '1.png',
 				title: 'One agent, many interfaces, many tools',
 				description:
-					'DeepAgents.js sits at the center. Plugins — Telegram, voice, test harness — connect through a Universal Bridge Protocol. Adding a new interface means implementing one adapter, not rewiring the agent. Long-term memory, short-term memory, and the entire tool infrastructure feed in as modular subsystems. Each can be developed, tested, and replaced independently.',
+					'The entire system at a glance: adapters feed into the Universal Bridge, which connects to DeepAgents. Three memory systems (long-term, short-term, vector search) supply context. The Universal Service Registry provides tools. Each component is independent — swap Telegram for Discord, replace the LLM, redesign memory compression. The agent never changes because it only talks to the bridge, not to adapters, storage, or tools directly. This is the modularity that makes rapid iteration possible.',
 			},
 			{
 				file: '2.png',
+				title: 'Universal Bridge Protocol — input reflexes & output adapters',
+				description:
+					'Inbound: all inputs (voice, text, files, locations, reactions, system triggers) emit events into the bridge. Reflexes normalize them automatically — voice transcribes, files save to disk (path appended), locations geocode, reactions become structured events. Outbound: agent emits state changes and messages, which the bridge routes through adapters (TTS for voice, persistence for state, each interface gets its native format). State changes, metrics, and history all persist automatically. The agent never knows the source or destination — it just processes a universal event stream.',
+			},
+			{
+				file: '3.png',
 				title: 'Memory that never forgets',
 				description:
 					'Most AI agents lose context once the window fills up. Ava compacts conversations into a temporal pyramid — deltas roll into days, days into months, months into years. Fact and project state extractors pull structured knowledge from raw conversations. Documents are indexed via vector search. The system prompt assembles dynamically — environment state, temporal baseline, recalled facts, conversation summary — all injected at the right granularity. A message compressor shortifies old messages past the active window. Result: context that survives indefinitely without blowing the token budget.',
 			},
 			{
-				file: '3.png',
+				file: '4.png',
 				title: 'Universal Service Registry — tools without code',
 				description:
 					'The agent controls real services — email, calendar, browser, GitHub, trading, weather. Instead of hardcoding each, I built a Universal Service Registry that normalizes all tool sources (local, MCP, API, peripherals) behind one interface. My Mac connects via inverse SSE as a self-describing peripheral — it announces its tools and schemas on connect. The agent discovers what exists at runtime. Instead of skills that force the LLM to read tutorials and handle API keys directly, new integrations are just YAML configs converted into native LLM tools. Define once, call forever. API keys injected from a secure enclave and sanitized on output — the LLM never touches sensitive data.',
 			},
 			{
-				file: '4.jpg',
-				title: 'Voice — physical interface to the agent',
+				file: '5.jpg',
+				title: 'Voice — physical interface to the agent (in progress)',
 				description:
 					'Beyond text, Ava listens and speaks. A wearable microphone captures voice, Whisper transcribes, the agent processes, Piper speaks back. Same Universal Bridge Protocol that handles Telegram handles voice — one more adapter, zero agent changes.',
 			},

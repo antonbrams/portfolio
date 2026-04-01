@@ -9,17 +9,17 @@
 	}
 </script>
 
-<main class="theme-light bg-[white] min-h-[100dvh] pt-10 tablet:pt-20">
-	<section class="px max-w-[680px] mx-auto">
+<main class="theme-light bg-bg pt-10 tablet:pt-20">
+	<section class="px max-w-xl mx-auto">
 		<h1 class="text-30 header">{header.name}</h1>
 		<p class="font-medium text-ml">{header.title}</p>
 	</section>
 	<br/><br/>
-	<section class="px-01 tablet:px max-w-[1024px] mx-auto">
-		<img src="/ai/antonbrams.jpg" alt="Anton Brams" class="w-full rounded" />
+	<section class="px-01 tablet:px max-w-4xl mx-auto">
+		<img src="/ai/antonbrams.webp" alt="Anton Brams" class="w-full rounded" />
 	</section>
 	<br/><br/><br/>
-	<section class="px max-w-[680px] mx-auto">
+	<section class="px max-w-xl mx-auto">
 		<div class="border border-sl rounded p-10 grid tablet:grid-cols-2 gap-10">
 			{#each facts as fact}
 				<div class="text-01">
@@ -30,13 +30,13 @@
 		</div>
 	</section>
 	<br/><br/>
-	<section class="px max-w-[680px] mx-auto text-00">
+	<section class="px max-w-xl mx-auto text-00">
 		{thesis}
 	</section>
 
 	{#each projects as project}
 		<br/><br/><br/><br/>
-		<section class="px max-w-[680px] mx-auto">
+		<section class="px max-w-xl mx-auto">
 			<div class="flex items-center justify-start gap">
 				<h2 class="text-20 header">{project.name}</h2>
 				{#if project.route}
@@ -47,7 +47,7 @@
 			<p class="text-00">{@html project.description}</p><br/>
 			<p class="text-00 font-bold">{project.impact}</p><br/><br/>
 		</section>
-		<section class="px-01 tablet:px max-w-[1024px] mx-auto grid tablet:grid-cols-2 gap-02 tablet:gap-01">
+		<section class="px-01 tablet:px max-w-4xl mx-auto grid tablet:grid-cols-2 gap-02 tablet:gap-01">
 			{#each project.images as img}
 				<img src={img} alt={project.name} class="w-full aspect-square rounded object-cover bg-sa" />
 			{/each}

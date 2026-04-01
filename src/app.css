@@ -115,6 +115,10 @@ button {
 	@apply px-10 font-bold transition-all rounded py duration-00 bg-sa;
 }
 
+button:active {
+	@apply brightness-50;
+}
+
 button.small {
 	@apply px py-02 rounded-01 text-01;
 }
