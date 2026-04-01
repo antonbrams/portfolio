@@ -11,7 +11,10 @@
 
 <main class="theme-light bg-bg pt-10 tablet:pt-20">
 	<section class="px max-w-xl mx-auto">
-		<h1 class="text-30 header">{header.name}</h1>
+		<div class="flex items-center justify-start gap">
+			<h1 class="text-30 header">{header.name}</h1>
+			<button class="primary small whitespace-nowrap top-02 relative" on:click={() => open_route('/')}>full portfolio</button>
+		</div>
 		<p class="font-medium text-ml">{header.title}</p>
 	</section>
 	<br/><br/>
@@ -53,6 +56,11 @@
 			{/each}
 		</section>
 	{/each}
+
+	<br/><br/><br/><br/>
+	<section class="px max-w-xl mx-auto flex justify-center">
+		<button class="primary" on:click={() => open_route('/')}>full portfolio</button>
+	</section>
 
 	<Footer />
 </main>

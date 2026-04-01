@@ -8,7 +8,7 @@ export const thesis = `I take products from 0 to 1. I think in systems, not laye
 export const facts = [
 	{
 		label: 'Skills',
-		value: `AI: Deepagents, multi-layer memory systems, universal tool registries, permission systems, physical ai interfaces. Software: Fullstack NextJS & NodeJS, CD/CI, Docker. Hardware: C++, rigit/flex PCB design, SMT reflow soldering, sensors/haptics. Design: UX, UI, industrial, sound design.`,
+		value: `AI: Deepagents, multi-layer memory systems, universal tool registries, permission systems, physical ai interfaces. Software: Fullstack NextJS & NodeJS, CD/CI, Docker. Hardware: C++, rigid/flex PCB design, SMT reflow soldering, sensors/haptics. Design: UX, UI, industrial, sound design.`,
 	},
 	{
 		label: 'Experience',
@@ -21,8 +21,12 @@ export const facts = [
 			'M.Sc. Human-Computer Interaction, Bauhaus (highest grade). B.A. Industrial Design, Folkwang (highest grade).',
 	},
 	{
+		label: 'Currently',
+		value: 'Building Ava (AI agent infrastructure). UX & Fullstack at MESO Digital Interiors.',
+	},
+	{
 		label: 'Work Style',
-		value: 'Remote-first, async. Full ownership. (Yet) based in Germany.',
+		value: 'Remote-first, async. Open to full-time or trial engagement. (Yet) based in Germany.',
 	},
 	{
 		label: 'Roles',
@@ -66,7 +70,7 @@ export const projects = [
 		route: 'https://www.youtube.com/playlist?list=PLIIcLdscAJU8TSejQCNW-Tc52-Lw_5AM_',
 	},
 	{
-		name: 'Enterprise',
+		name: 'Enterprise at MESO & Co.',
 		subtitle: 'Shipped with OEMs under real-world pressure',
 		description: `Automotive and industrial clients needed interactive systems that worked under real-world pressure — Frankfurt Motor Show, exhibitions, production constraints. Each project required different architectural approach.<br/><br/><a href="/#/projects/YanFeng">YanFeng</a> autonomous dashboard: Context-aware mode switching (manual ↔ autonomous). VVVV-based dashboard + MQTT-controlled multi-screen setup (ceiling, seats, doors). Each screen shows context-specific content.<br/><br/><a href="/#/projects/Hyundai">Hyundai</a> cockpit: Smartphone-based modular displays instead of fixed dashboard. Cordova sandbox with telemetric data-driven animations. Rotation compensated UI with phone's IMU sensor.<br/><br/><a href="/#/projects/BASF">BASF</a> brainstorming: RFID-tagged physical materials auto-logged participants. WebSocket real-time sync across multiple devices.<br/><br/><a href="/#/projects/KUKA">KUKA</a> showroom: Tangible ring-pointer shaped like brand logo. Custom collision detection algorithm. Hybrid physical-digital interaction.`,
 		impact: `Shipped concepts and prototype showcases for clients. Frankfurt Motor Show – live public exhibition. Proved ability to adapt architecture to different constraints.`,
