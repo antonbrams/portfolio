@@ -6,7 +6,7 @@ export const about = [
 	{
 		title: 'Expertise',
 		items: [
-			`I'm <span class='badge'>I’m a Principal Innovation Architect</span>. From vision to prototype and optionally to production, I craft the fundamental solution that solves multiple challenges at once and shape it in its most effective form — just a GUI, an AI wearable, an industrial process, or a car dashboard. It requires integrating design, software, and hardware into a cohesive system, as practiced in R&D labs like Apple Future Interfaces or Google ATAP.`,
+			`I’m a <span class='badge'>Principal Innovation Architect</span>. From vision to prototype and optionally to production, I craft the fundamental solution that solves multiple challenges at once and shape it in its most effective form — just a GUI, an AI wearable, an industrial process, or a car dashboard. It requires integrating design, software, and hardware into a cohesive system, as practiced in R&D labs like Apple Future Interfaces or Google ATAP.`,
 		],
 	},
 	{
