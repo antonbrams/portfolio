@@ -317,10 +317,43 @@ Verified against real job postings to check what each title actually demands fro
 
 ### Honest gaps to close before outreach
 
-1. **Vector DB / RAG demonstrable artifact.** Memory pyramid in Ava is adjacent — can be pitched as hierarchical retrieval. Otherwise: ship a small RAG demo in a week.
+1. **Vector DB / RAG demonstrable artifact.** ✅ VERIFIED — Ava has semantic vector retrieval via Google Vertex AI embeddings. Hybrid search (keyword + vector) across temporal memory pyramid. This IS RAG architecture. Just needs better framing in description.
 2. **Evaluation / benchmarking quantitatives.** Add any hard numbers from Ava: latency, token savings vs naive approach, error rates caught by permission system.
 3. **One more public AI artifact beyond Ava** (open-source tool, benchmark, demo, post). Closes "only-one-AI-project" credibility gap. 1–2 weeks focused.
 4. **Surface Python + Docker + faster-whisper + Ollama in `model_ai.js` Skills line.** Already earned — just not shown.
+5. **SQL + cloud architecture proof.** ✅ VERIFIED — Alena bookkeeping platform has production SQL (subqueries, aggregates, GROUP BY/HAVING, whitelist filtering) handling 2000+ SKUs. Currently frames as "side project for mom." Needs reframing as separate e-commerce architecture project.
+
+---
+
+## PORTFOLIO REFRAMING — Alena as separate project
+
+**Current frame:** Lumped under "Alena Souvenirs — Manufacturing" (laser farm).
+
+**New frame:** Split into TWO projects on `/#/ai`:
+
+1. **Alena Souvenirs — Manufacturing** (laser farm 200→1000 units/day) — stays as-is.
+2. **Alena Souvenirs — E-commerce Platform** (NEW, separate entry) — highlights architecture, SQL, distributed system.
+
+**Alena E-commerce — copy to use in `model_ai.js`:**
+
+```
+Alena Souvenirs — E-commerce Platform (2000+ SKUs)
+
+Architected full-stack distributed system: Node.js server, PostgreSQL data model 
+with subqueries and aggregation, multi-container deployment. Designed the bookkeeping 
+logic, inventory pipeline, and order tracking. Scaled to handle wholesale operations 
+profitably across 2000+ product variants. Solo. Still running.
+
+Impact: 2000+ SKUs, millions of orders tracked, complex SQL pipelines (GROUP BY, 
+HAVING, subqueries, historical aggregation), zero downtime shipping.
+```
+
+**Why this works:**
+- Separates "manufacturing automation" from "distributed e-commerce data architecture"
+- Makes the SQL + cloud architecture explicit
+- Removes "freelance for mom" framing, emphasizes "architect of scale"
+- Shows you architect across different domains (AI + hardware + e-commerce)
+- Adds a 4th project proof on `/#/ai`, strengthening the portfolio density
 
 ---
 

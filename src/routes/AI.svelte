@@ -13,7 +13,7 @@
 	<section class="px max-w-xl mx-auto">
 		<div class="flex items-center justify-start gap">
 			<h1 class="text-30 header">{header.name}</h1>
-			<button class="primary small whitespace-nowrap top-02 relative" on:click={() => open_route('/')}>full portfolio</button>
+			<!-- <button class="primary small whitespace-nowrap top-02 relative" on:click={() => open_route('/')}>full portfolio</button> -->
 		</div>
 		<p class="font-medium text-ml">{header.title}</p>
 	</section>
@@ -48,7 +48,7 @@
 			</div>
 			<p class="text-01 text-ml">{project.subtitle}</p><br/>
 			<p class="text-00">{@html project.description}</p><br/>
-			<p class="text-00 font-bold">{project.impact}</p><br/><br/>
+			<p class="text-00"><span class="font-bold">IMPACT:</span> {project.impact}</p><br/><br/>
 		</section>
 		<section class="px-01 tablet:px max-w-4xl mx-auto grid tablet:grid-cols-2 gap-02 tablet:gap-01">
 			{#each project.images as img}
@@ -59,7 +59,7 @@
 
 	<br/><br/><br/><br/>
 	<section class="px max-w-xl mx-auto flex justify-center">
-		<button class="primary" on:click={() => open_route('/')}>full portfolio</button>
+		<!-- <button class="primary" on:click={() => open_route('/')}>full portfolio</button> -->
 	</section>
 
 	<Footer />
