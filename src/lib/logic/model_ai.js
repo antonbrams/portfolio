@@ -3,7 +3,7 @@ export const header = {
 	title: 'AI Agent Architect',
 }
 
-export const thesis = `Founder co-pilot for 0→1. I don't fit standard boxes by design — I operate at the principal level across AI, software, hardware, and design, solving problems that span all of them at once. My value isn't a stack; it's judgment about what's worth building, prototypes that prove it, and end-to-end delivery — solo, fast. I run my own R&D platform (a live AI agent I use daily) where architectural ideas mature under real-world load. For startups, R&D groups, and AI companies who need a builder who thinks like an operator.`
+export const thesis = `Founder co-pilot for 0→1. I don't fit standard boxes by design — I operate at the principal level across AI, software, hardware, and design, solving problems that span all of them at once. Where most teams assemble five specialists and a translator, I bring the same capability in one head — no coordination tax, no tunnel vision, no handoffs lost in translation. I work from first principles — strip the problem to what it actually demands, then rebuild every part from zero so the pieces interlock. My value isn't a stack; it's judgment about what's worth building, prototypes that prove it, and end-to-end delivery — solo, fast. I run my own R&D platform (a live AI agent I use daily) where architectural ideas mature under real-world load. For startups, R&D groups, and AI companies who need a builder who thinks like an operator.`
 
 export const facts = [
 	{
@@ -60,7 +60,7 @@ export const projects = [
 	{
 		name: 'Alena Souvenirs - Manufacturing',
 		subtitle: 'Laser farm: 200 → 1000 units/day',
-		description: `I architected and operated a complete laser farm from 0 — owner-operator, not consultant — to eliminate the manual bottleneck that was capping output.<br/><br/>
+		description: `I architected and operated a complete laser farm from 0 — owner-operator, not consultant. Architecture principle: every part does 3-5 jobs and interlocks with the next. The tray alone is laser-safe floor, camera reference, quick-swap surface, smoke-funnel seal, and software anchor for G-Code. One object, five functions. The whole factory works like this — tray, shelf, algorithms, smart-cut finisher — one living system, not a stack of features.<br/><br/>
 <b>Problem:</b> Making layered magnets required hand-gluing sheets, then manual CO₂ laser alignment—sub-millimeter precision by keyboard dozens of times/shift. Skilled labor, slow. 200 units/day max.<br/><br/>
 <b>Solution:</b> Switched from CO₂ (expensive, requires chillers, mirror cleaning, smoke extraction contaminating optics) to modular 70W diode lasers (1/4 cost, compact, horizontally scalable, G-Code control). Mounted ESP32 camera on laser head—detects print crosses regardless of rotation or scale, feeds back to auto-align. Built SVG pipeline to automate file prep (layer splitting, ink-saving, bleed, PDF/SVG rendering)—eliminated manual handover and WhatsApp chaos. Designed custom tray with laser-safe floor and alignment pins. Smart-cut mode: pre-cut alignment holes, stack sheets on pins, glue as one block, final cut with depth-aware laser power per layer—reduces manual labor to near zero.<br/><br/>
 <b>Business impact:</b> 1,000 units/day. 2 full-time operators freed. Modular farm scales as business grows. Running 2024 - today.`,
@@ -86,17 +86,15 @@ export const projects = [
 	{
 		name: 'Further Work',
 		subtitle: 'Co-pilot across diverse domains',
-		description: `Four projects, four domains: automotive OEM, ecommerce, supplier UX, digital signage. Same operating mode — translate ambiguous business problems into shipped systems. Each entry below is a different proof of cross-domain range.
+		description: `Projects across automotive OEM, automotive interiors, ecommerce, and digital signage. Same operating mode — translate ambiguous business problems into shipped systems. Each entry below is a different proof of cross-domain range.
 
 		<br/><br/><a href="/#/projects/Diwa">Diwa</a> at Adversign Media (2022-2023): Product Owner. I convinced the team to make the right architectural decisions — Cloud monolith → microservices refactor, hardware/motherboard specs (coordinated with China-based engineers), UX redesign for multiplatform mobile app. My voice was listened to. Translated vague customer needs into technical specs, hardware constraints into intuitive interfaces.
 
 		<br/><br/><a href="/#/projects/Alenashop">Alenashop</a> eCommerce platform: I built from 0 to production (runs 2021 – today). Scaled a wholesale business from founder spreadsheets to 4300+ SKU management. Built end-to-end full-stack accounting system (Svelte, NodeJS, Docker, PostgreSQL, AWS) that tracked inventory, orders, fulfillment, manufacturing, finances. Evolved with the business—from chaos to foundation for manufacturing operations and team scaling.
 
-		<br/><br/><a href="/#/projects/YanFeng">YanFeng</a> (automotive supplier): I designed and built fullstack UI for show car's middle console and door interfaces—design propositions in YanFeng's visual language, UX for autonomous/manual mode switching across all surfaces. Collaborated hand-in-hand with YanFeng designers. Tech and UX advisor for production main dashboard. Tech stack: VVVV-based dashboard, MQTT multi-screen control (ceiling, seats, doors), context-aware mode switching.
+		<br/><br/><a href="/#/projects/YanFeng">YanFeng</a> (automotive supplier): I designed and built fullstack UI for show car's middle console and door interfaces—design propositions in YanFeng's visual language, UX for autonomous/manual mode switching across all surfaces. Collaborated hand-in-hand with YanFeng designers. Tech and UX advisor for production main dashboard. Tech stack: React, VVVV-based dashboard, MQTT multi-screen control (ceiling, seats, doors), context-aware mode switching.
 
-		<br/><br/><a href="/#/projects/Hyundai">Hyundai</a> (multiple projects, some under NDA): I was UX and UI designer creating advanced concepts for future production—ahead of industry trends by 5 years. Public project: vertical heading interface built into steering wheel. User rotates wheel, display rotates with it, interface stays locked in place. Collaborated hand-in-hand with Hyundai designers, ensured UI visuals matched their language, implemented technically, presented at fairs worldwide. Smartphone-based modular displays, telemetric data-driven animations, rotation-compensated UI with phone IMU sensor.
-
-		<br/><br/><b>Business impact:</b> Systems shipped to startups, enterprise, and OEM clients — some still running years after delivery. Concepts shown at global auto exhibitions set industry direction 5+ years ahead of production. Ambiguous business problems consistently turned into shipped systems across ecommerce, automotive, and digital signage.`,
+		<br/><br/><a href="/#/projects/Hyundai">Hyundai</a> (multiple projects, some under NDA): I was UX and UI designer creating advanced concepts for future production—ahead of industry trends by 5 years. Public project: vertical heading interface built into steering wheel. User rotates wheel, display rotates with it, interface stays locked in place. Collaborated hand-in-hand with Hyundai designers, ensured UI visuals matched their language, implemented technically, presented at fairs worldwide. Smartphone-based modular displays, telemetric data-driven animations, rotation-compensated UI with phone IMU sensor.`,
 		images: ['/ai/others/1.webp', '/ai/others/2.webp', '/ai/others/3.webp', '/ai/others/4.webp'],
 	},
 ]
