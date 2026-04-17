@@ -47,8 +47,7 @@
 				{/if}
 			</div>
 			<p class="text-01 text-ml">{project.subtitle}</p><br/>
-			<p class="text-00">{@html project.description}</p><br/>
-			<p class="text-00"><span class="font-bold">IMPACT:</span> {project.impact}</p><br/><br/>
+			<p class="text-00">{@html project.description}</p><br/><br/>
 		</section>
 		<section class="px-01 tablet:px max-w-4xl mx-auto grid tablet:grid-cols-2 gap-02 tablet:gap-01">
 			{#each project.images as img}
