@@ -3,7 +3,7 @@ export const header = {
 	title: 'AI Agent Architect',
 }
 
-export const thesis = `Founder co-pilot for 0→1. I don't fit standard boxes by design — I operate at the principal level across AI, software, hardware, and design, solving problems that span all of them at once. Where most teams assemble five specialists and a translator, I bring the same capability in one head — no coordination tax, no tunnel vision, no handoffs lost in translation. I work from first principles — strip the problem to what it actually demands, then rebuild every part from zero so the pieces interlock. My value isn't a stack; it's judgment about what's worth building, prototypes that prove it, and end-to-end delivery — solo, fast. I run my own R&D platform (a live AI agent I use daily) where architectural ideas mature under real-world load. For startups, R&D groups, and AI companies who need a builder who thinks like an operator.`
+export const thesis = `Founder co-pilot for 0→1. I operate at the principal level across AI, software, hardware, and design, solving problems that span all of them at once. Where most teams assemble five specialists and a translator, I bring the same capability in one head — no coordination tax, no tunnel vision, no handoffs lost in translation. I work from first principles — strip the problem to what it actually demands, then rebuild every part from zero so the pieces interlock. My value isn't a stack; it's judgment about what's worth building, prototypes that prove it, and end-to-end delivery — solo, fast. I run my own R&D platform (a live AI agent I use daily) where architectural ideas mature under real-world load. For startups, R&D groups, and AI companies who need a builder who thinks like an operator.`
 
 export const facts = [
 	{
@@ -13,7 +13,7 @@ export const facts = [
 	},
 	{
 		label: 'Skills',
-		value: `Tools follow the problem — I pick what fits. AI: DeepAgents, multi-layer memory systems, universal tool registries, permission systems, physical AI interfaces. Software: fullstack TypeScript/NextJs/NodeJs, PostgreSQL/MongoDB, CI/CD, Docker. Hardware: embedded C++, rigid/flex PCB design, SMT reflow, sensor/haptics, MQTT/BLE/SPI. Design: UX, UI, industrial, sound.`,
+		value: `Shipped in production across every layer. AI: DeepAgents, multi-layer memory systems, universal tool registries, permission systems, physical AI interfaces. Software: fullstack TypeScript/NextJs/NodeJs, PostgreSQL/MongoDB, CI/CD, Docker. Hardware: embedded C++, rigid/flex PCB design, SMT reflow, sensor/haptics, MQTT/BLE/SPI. Design: UX, UI, industrial, sound.`,
 	},
 	{
 		label: 'Education',
@@ -31,7 +31,7 @@ export const facts = [
 	{
 		label: 'Engagement',
 		value:
-			'Free 30-min brainstorming — no commitment. Project-based work in epochs €100/h. Full-time starting €100k/y. Available now.',
+			'Free 30-min call. Project work €100/h (2d/wk) — start immediately. Full-time from €100k/y — quits current role on signing. International AI-company band, not German market.',
 	},
 	{
 		label: 'Previous Roles',
