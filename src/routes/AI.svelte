@@ -59,7 +59,7 @@
 
 	<br/><br/><br/><br/>
 	<section class="px max-w-xl mx-auto flex justify-center">
-		<!-- <button class="primary" on:click={() => open_route('/')}>full portfolio</button> -->
+		<button class="primary" on:click={() => window.open('https://calendly.com/antonbrams/new-meeting', '_blank')}>Book a Call</button>
 	</section>
 
 	<Footer />

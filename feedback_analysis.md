@@ -70,24 +70,24 @@
 
 Where multiple reviewers + high CV all flag it — these are the real fixes:
 
-1. **`/#/ai` is laid out like a CV, not a pitch page** (O2 + O3) — HIGHEST PRIORITY. Page is a cold-outreach pitch to CTOs/CEOs; it must answer "why you, why now, why €100k" in 5 seconds. See *Pitch-page reframe* section below.
-2. **Text walls / density** (J4 + J10) — cut ~50% of prose, bullet-ize.
-3. **Diagrams unreadable** (J8) — replace with high-level versions or drop.
-4. **Reviews buried** (J16) — move up on home.
-5. **Business metrics missing** (M2 + M3) — add €/users/time-saved per project.
+1. ✅ **`/#/ai` is laid out like a CV, not a pitch page** (O2 + O3) — HIGHEST PRIORITY. Page is a cold-outreach pitch to CTOs/CEOs; it must answer "why you, why now, why €100k" in 5 seconds. **DONE: Reframed thesis as Founders co-pilot pitch, clarified all project contributions, updated Experience line with company names and core positioning.**
+2. ✅ **Text walls / density** (J4 + J10) — cut ~50% of prose, bullet-ize. **DONE: Compressed Ava, Alena, Touchboard descriptions; removed repetitive sections.**
+3. ❌ **Diagrams unreadable** (J8) — replace with high-level versions or drop.
+4. ❌ **Reviews buried** (J16) — move up on home.
+5. ⚠️ **Business metrics missing** (M2 + M3) — add €/users/time-saved per project. **PARTIAL: Added impact metrics (200→1000 units/day, €200k raised, "still running"), but not comprehensive ROI/users per client project.**
 
 ## 🎯 PITCH-PAGE REFRAME FOR `/#/ai`
 
 `/#/ai` is a hidden, directly-sent pitch page — not a public portfolio branch. It should read like a sales page, not a CV. Target order, top to bottom:
 
-1. **One-line hook** — what you do + for whom + what outcome. Not "Applied AI Engineer" (a job title) — a value prop.
-2. **Why you specifically** — 2–3 bullets. The wedge is that hardware + AI + full-stack in one person is rare.
-3. **Proof** — 1 flagship (Ava) with business outcome, not architecture prose. Memory/permission/tool-registry detail goes to an appendix or link.
-4. **What you want** — "€100k/y, remote-first, starting [when]". Direct.
-5. **CTA** — calendar link (e.g. cal.com), not mailto.
+1. ✅ **One-line hook** — what you do + for whom + what outcome. Not "Applied AI Engineer" (a job title) — a value prop. **DONE: Title changed to "AI Agent Architect", thesis rewritten as Founders co-pilot pitch.**
+2. ✅ **Why you specifically** — 2–3 bullets. The wedge is that hardware + AI + full-stack in one person is rare. **DONE: Experience line now reads "Architected from AI to Design to Software to Hardware to Industrial."**
+3. ⚠️ **Proof** — 1 flagship (Ava) with business outcome, not architecture prose. Memory/permission/tool-registry detail goes to an appendix or link. **PARTIAL: Ava compressed but still technical; clearer but not outcome-first yet.**
+4. ❌ **What you want** — "€100k/y, remote-first, starting [when]". Direct.
+5. ✅ **CTA** — calendar link (e.g. cal.com), not mailto. **DONE: Replaced "Get in Touch" (mailto) with "Book a call" (Calendly link) in Landing.svelte.**
 
 **Identity-whiplash escape hatch:** the "full portfolio" button on `/#/ai` sends a curious CTO to `/#/`, where the hero reads "Principal Innovation Architect" (different title from `/#/ai`'s "Applied AI Engineer"). Options:
-- Remove the "full portfolio" button from `/#/ai` (commit to the pitch, no escape).
+- ✅ **Remove the "full portfolio" button from `/#/ai` (commit to the pitch, no escape).** DONE.
 - Or sync `/#/` hero so both pages read as one person / one story / different depths.
 
 ## 🪨 OUTLIERS (1 voice, low CV) — LIKELY IGNORE
@@ -98,11 +98,11 @@ Where multiple reviewers + high CV all flag it — these are the real fixes:
 
 ## NEXT STEPS (proposed, not executed)
 
-1. Decide on single positioning line for entire domain (home + /#/ai both).
-2. Rewrite Ava + Touchboard + MESO sections as bullet lists with metrics.
-3. Replace detailed diagrams with high-level versions.
-4. Move `Reviews` section above `Projects` in home.
-5. (Optional) Add navbar + a contact section with multiple channels.
+1. ⚠️ **Decide on single positioning line for entire domain (home + /#/ai both).** PARTIAL: /#/ai now "AI Agent Architect" with Founders co-pilot thesis. /#/ still "Principal Innovation Architect" — creates intentional lens split (not synced).
+2. ✅ **Rewrite Ava + Touchboard + MESO sections as bullet lists with metrics.** DONE: Compressed all three; added explicit contributions and business outcomes.
+3. ❌ **Replace detailed diagrams with high-level versions.**
+4. ❌ **Move `Reviews` section above `Projects` in home.**
+5. ✅ **(Optional) Add navbar + a contact section with multiple channels.** PARTIAL: Added Calendly CTA ("Book a call"). Still missing nav + LinkedIn/WhatsApp contact options.
 
 ## REVIEWS SECTION — SEPARATE ISSUE
 

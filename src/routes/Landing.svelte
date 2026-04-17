@@ -20,8 +20,8 @@
 <Section first class="flex flex-col items-center justify-center min-h-full gap-30">
 	<span class="text-20 tablet:text-30 header tablet:text-center max-w-[26ch]">{@html intro}</span>
 	<div class="flex flex-wrap gap">
-		<button class="mobile:w-full" on:click={e => (location.href = 'mailto:hello@antonbrams.io')}>
-			Get in Touch
+		<button class="mobile:w-full" on:click={e => window.open('https://calendly.com/antonbrams/new-meeting', '_blank')}>
+			Book a call
 		</button>
 		<button class="mobile:w-full primary" on:click={e => window.open(teaser, '_blank')}>
 			Watch Demo

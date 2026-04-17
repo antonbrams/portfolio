@@ -3,7 +3,7 @@ export const header = {
 	title: 'AI Agent Architect',
 }
 
-export const thesis = `Founders co-pilot. I translate ambitious ideas with no clear solution into working prototypes or ready-to-ship concepts. I save time, money, eliminate unknowns fast. I don't memorize tools — I have intuitive understanding of software, hardware, and design. I act as your R&D lab. I solve multidimensional problems spanning multiple domains. As HCI expert & industrial designer using web stack, I ship agents into the real world: integrations with machines and APIs, human interfaces, memory systems, reasoning patterns. I build 0→1. End-to-end. Solo. Fast.`
+export const thesis = `Founders co-pilot. For startups, R&D labs, companies that need to build 0→1. I translate ambitious ideas with no clear solution into working prototypes or ready-to-ship concepts. I save time, money, eliminate unknowns fast. I don't memorize tools — I have intuitive understanding of software, hardware, and design. I act as your R&D lab. I solve multidimensional problems spanning multiple domains. As HCI expert & industrial designer using web stack, I ship agents into the real world: integrations with machines and APIs, human interfaces, memory systems, reasoning patterns. I build 0→1. End-to-end. Solo. Fast.`
 
 export const facts = [
 	{
@@ -26,7 +26,11 @@ export const facts = [
 	},
 	{
 		label: 'Work Style',
-		value: 'Remote-first, async. Open to full-time or trial engagement. (Yet) based in Germany.',
+		value: 'Remote-first, async. Based in Germany, open to relocation to warm country.',
+	},
+	{
+		label: 'Engagement',
+		value: 'Free 30-min brainstorming — no commitment. Project-based work in epochs (~€100/h). Full-time starting €100k/y. Available now.',
 	},
 	{
 		label: 'Previous Roles',
