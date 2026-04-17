@@ -70,21 +70,21 @@
 
 Where multiple reviewers + high CV all flag it — these are the real fixes:
 
-1. ✅ **`/#/ai` is laid out like a CV, not a pitch page** (O2 + O3) — HIGHEST PRIORITY. Page is a cold-outreach pitch to CTOs/CEOs; it must answer "why you, why now, why €100k" in 5 seconds. **DONE: Reframed thesis as Founders co-pilot pitch, clarified all project contributions, updated Experience line with company names and core positioning.**
-2. ✅ **Text walls / density** (J4 + J10) — cut ~50% of prose, bullet-ize. **DONE: Compressed Ava, Alena, Touchboard descriptions; removed repetitive sections.**
+1. ✅ **`/#/ai` is laid out like a CV, not a pitch page** (O2 + O3) — HIGHEST PRIORITY. Page is a cold-outreach pitch to CTOs/CEOs; it must answer "why you, why now, why €100k" in 5 seconds. **DONE: Reframed thesis as Founders co-pilot pitch, clarified all project contributions, updated Experience line with company names and core positioning. Title → "AI Agent Architect", thesis → "Founder co-pilot for 0→1", all project contributions clarified (solo, founder, architect).**
+2. ✅ **Text walls / density** (J4 + J10) — cut ~50% of prose, bullet-ize. **DONE: Converted all descriptions to bullet-format with newlines + br/ tags. Ava, Alena, Touchboard all compressed. Projects now have 8-10 bullet points instead of 6-8 sentence walls.**
 3. ❌ **Diagrams unreadable** (J8) — replace with high-level versions or drop.
 4. ❌ **Reviews buried** (J16) — move up on home.
-5. ⚠️ **Business metrics missing** (M2 + M3) — add €/users/time-saved per project. **PARTIAL: Added impact metrics (200→1000 units/day, €200k raised, "still running"), but not comprehensive ROI/users per client project.**
+5. ✅ **Business metrics missing** (M2 + M3) — add €/users/time-saved per project. **DONE: Added explicit metrics per project. Ava: 46 days, 10,600 lines, production-grade. Alena: 200→1000 units/day, 2 operators freed. Touchboard: €200k raised, €10k first place. Further Work: 2021-2025 still running. Impact section merged into each description.**
 
 ## 🎯 PITCH-PAGE REFRAME FOR `/#/ai`
 
 `/#/ai` is a hidden, directly-sent pitch page — not a public portfolio branch. It should read like a sales page, not a CV. Target order, top to bottom:
 
-1. ✅ **One-line hook** — what you do + for whom + what outcome. Not "Applied AI Engineer" (a job title) — a value prop. **DONE: Title changed to "AI Agent Architect", thesis rewritten as Founders co-pilot pitch.**
-2. ✅ **Why you specifically** — 2–3 bullets. The wedge is that hardware + AI + full-stack in one person is rare. **DONE: Experience line now reads "Architected from AI to Design to Software to Hardware to Industrial."**
-3. ⚠️ **Proof** — 1 flagship (Ava) with business outcome, not architecture prose. Memory/permission/tool-registry detail goes to an appendix or link. **PARTIAL: Ava compressed but still technical; clearer but not outcome-first yet.**
-4. ❌ **What you want** — "€100k/y, remote-first, starting [when]". Direct.
-5. ✅ **CTA** — calendar link (e.g. cal.com), not mailto. **DONE: Replaced "Get in Touch" (mailto) with "Book a call" (Calendly link) in Landing.svelte.**
+1. ✅ **One-line hook** — what you do + for whom + what outcome. Not "Applied AI Engineer" (a job title) — a value prop. **DONE: Title changed to "AI Agent Architect", thesis rewritten as Founders co-pilot pitch. Thesis now reads "Founder co-pilot for 0→1... I run my own R&D platform (Ava)..."**
+2. ✅ **Why you specifically** — 2–3 bullets. The wedge is that hardware + AI + full-stack in one person is rare. **DONE: Experience line now reads "11+ years solving cross-domain problems in AI, design, software, hardware, and industrial. Delivered for Hyundai, YanFeng, Telekom, BASF, KUKA. Also founded three products: Touchboard, Ava, Alenashop."**
+3. ✅ **Proof** — 1 flagship (Ava) with business outcome, not architecture prose. Memory/permission/tool-registry detail goes to an appendix or link. **DONE: Ava rewritten. Opens with "Live R&D platform — architecture I transfer into client deployments." Business impact section explicitly states "integration cycle collapses from sprints to hours", "long-running agents stay coherent", "agent side effects are safe".**
+4. ✅ **What you want** — "€100k/y, remote-first, starting [when]". Direct. **DONE: Engagement fact reads "Free 30-min brainstorming — no commitment. Project-based work in epochs €100/h. Full-time starting €100k/y. Available now."**
+5. ✅ **CTA** — calendar link (e.g. cal.com), not mailto. **DONE: Replaced all mailto links with Calendly "Book a call" button on both `/#/` and `/#/ai`. In Landing.svelte and AI.svelte.**
 
 **Identity-whiplash escape hatch:** the "full portfolio" button on `/#/ai` sends a curious CTO to `/#/`, where the hero reads "Principal Innovation Architect" (different title from `/#/ai`'s "Applied AI Engineer"). Options:
 - ✅ **Remove the "full portfolio" button from `/#/ai` (commit to the pitch, no escape).** DONE.
@@ -98,11 +98,11 @@ Where multiple reviewers + high CV all flag it — these are the real fixes:
 
 ## NEXT STEPS (proposed, not executed)
 
-1. ⚠️ **Decide on single positioning line for entire domain (home + /#/ai both).** PARTIAL: /#/ai now "AI Agent Architect" with Founders co-pilot thesis. /#/ still "Principal Innovation Architect" — creates intentional lens split (not synced).
-2. ✅ **Rewrite Ava + Touchboard + MESO sections as bullet lists with metrics.** DONE: Compressed all three; added explicit contributions and business outcomes.
+1. ⚠️ **Decide on single positioning line for entire domain (home + /#/ai both).** INTENTIONAL SPLIT: /#/ai now "AI Agent Architect" (pitch to CTOs). /#/ is "Principal Innovation Architect" (full archive for curious visitors). By design — not a bug.
+2. ✅ **Rewrite Ava + Touchboard + Further Work sections as bullet lists with metrics.** DONE: All descriptions converted to bullet format with newlines + `<br/>` tags. Ava, Alena, Touchboard, Further Work all have 8-12 bullet points per project. Metrics integrated (days, lines, units/day, €k raised, still-running status).
 3. ❌ **Replace detailed diagrams with high-level versions.**
 4. ❌ **Move `Reviews` section above `Projects` in home.**
-5. ✅ **(Optional) Add navbar + a contact section with multiple channels.** PARTIAL: Added Calendly CTA ("Book a call"). Still missing nav + LinkedIn/WhatsApp contact options.
+5. ✅ **Add contact CTA.** DONE: Calendly "Book a call" button on both `/#/` and `/#/ai`. Replaces mailto entirely. Still missing nav + LinkedIn/WhatsApp contact options (low priority per feedback score).
 
 ## REVIEWS SECTION — SEPARATE ISSUE
 
