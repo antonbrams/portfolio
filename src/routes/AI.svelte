@@ -40,10 +40,10 @@
 	{#each projects as project}
 		<br/><br/><br/><br/>
 		<section class="px max-w-xl mx-auto">
-			<div class="flex items-center justify-start gap">
+			<div class="flex flex-wrap items-center justify-start gap-x mobile:pb tablet:pb-0">
 				<h2 class="text-20 header">{project.name}</h2>
 				{#if project.route}
-					<button class="primary small whitespace-nowrap top-02 relative" on:click={() => open_route(project.route)}>read more</button>
+					<button class="primary small whitespace-nowrap top-03 relative" on:click={() => open_route(project.route)}>read more</button>
 				{/if}
 			</div>
 			<p class="text-01 text-ml">{project.subtitle}</p><br/>
