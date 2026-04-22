@@ -3,7 +3,7 @@ export const header = {
 	title: 'AI Agent Architect',
 }
 
-export const thesis = `Founder co-pilot for 0→1. I operate at the principal level across AI, software, hardware, and design, solving problems that span all of them at once. Where most teams assemble five specialists and a translator, I bring the same capability in one head — no coordination tax, no tunnel vision, no handoffs lost in translation. I work from first principles — strip the problem to what it actually demands, then rebuild every part from zero so the pieces interlock. My value isn't a stack; it's judgment about what's worth building, prototypes that prove it, and end-to-end delivery — solo, fast. I run my own R&D platform (a live AI agent I use daily) where architectural ideas mature under real-world load. For startups, R&D groups, and AI companies who need a builder who thinks like an operator.`
+export const thesis = `Founder co-pilot for 0→1. I start from the user's perfect scenario — and architect backwards to make it real.<br/><br/>R&D lab in one human. No coordination tax, no tunnel vision. I work from first principles: identify the problem, strip it to the essentials, rebuild from zero until every piece interlocks.<br/><br/>My value isn't a stack — it's judgment about what's worth building, prototypes that prove it, and end-to-end delivery. Solo or embedded in your team, fast.`
 
 export const facts = [
 	{
@@ -47,23 +47,26 @@ export const projects = [
 	{
 		name: 'Ava',
 		subtitle: 'Live R&D platform — architecture I transfer into client deployments',
-		description: `Ava is the AI agent I run daily and the lab where every architecture pattern I ship to clients matures first. Built in 46 days, 10,600 lines, on DeepAgents.<br/><br/>
-<b>Plugin-first architecture:</b> every integration (Slack, device, API, MCP server) is a declarative config — tools, context, handlers, middleware. No core rewires. New capability live in ~10 minutes, hot-loaded.<br/><br/>
-<b>Infinite memory without token death:</b> temporal pyramid compression keeps recent context dense while older context fades. Thousands of messages survive in a fixed window.<br/><br/>
-<b>Unified tool surface:</b> local CLIs, MCP servers, HTTP APIs, hardware — all speak one interface. LLM calls curl and MQTT with identical semantics. Eliminates the N-integrations × N-adapters tax.<br/><br/>
-<b>YAML-to-API shortcuts:</b> one YAML file = one service. Endpoints, schemas, request templates all data-driven. Agent scrapes, processes, extracts through sandboxed curl/jq — safer than giving it shell access. Agent integrates new APIs itself in seconds — not a human in hours.<br/><br/>
-<b>Permission system that survives LLM mutations:</b> stable hash over canonical argument form prevents allow → deny flips from argument-order shifts. The class of bug that kills agent deployments in production, engineered away upfront.<br/><br/>
-<b>Business impact:</b> integration cycle collapses from sprints to hours (plugin-first). Long-running agents stay coherent without context reload cost (memory). Agent side effects are safe in production (permission model). These patterns are ready to drop into any team's agent stack.`,
+		description: `Ava is the AI agent I run daily — the lab where every architecture I ship to clients is proven before I charge for it.<br/><br/>
+<b>Problem:</b> AI agents built by most teams fail in production — brittle integrations that take sprints to add, context death on long conversations, unsafe side effects that break things silently.<br/><br/>
+<b>Result:</b> Running daily for months without breaking. New integration live in ~10 minutes. Memory survives thousands of messages. No unsafe side effects in production. Built solo in 46 days, 10,600 lines.<br/><br/>
+<b>New capability in 10 minutes, not a sprint.</b> Plugin-first architecture — every integration is a declarative config. No core rewires, no risk. Slack, hardware, API, MCP server — same pattern, hot-loaded.<br/><br/>
+<b>Agent stays coherent across thousands of messages.</b> Memory compression keeps recent context dense while older context fades naturally. No context resets, no reload cost, no lost thread.<br/><br/>
+<b>One interface for everything.</b> APIs, hardware, CLI tools, MCP servers — all speak one interface. No adapter sprawl, no N×N integration tax.<br/><br/>
+<b>Agent integrates new APIs itself — in seconds.</b> One YAML file defines a service. The agent scrapes, processes, extracts through it — sandboxed and safe. What takes a developer hours, the agent does alone.<br/><br/>
+<b>Safe in production, by design.</b> Permission system prevents the class of bug that silently kills agent deployments — engineered away upfront, not patched later.`,
 		images: ['/ai/ava/1.webp', '/ai/ava/2.webp', '/ai/ava/3.webp', '/ai/ava/4.webp'],
 		route: '/projects/Ava',
 	},
 	{
 		name: 'Alena Souvenirs - Manufacturing',
 		subtitle: 'Laser farm: 200 → 1000 units/day',
-		description: `I architected and operated a complete laser farm from 0 — owner-operator, not consultant. Architecture principle: every part does 3-5 jobs and interlocks with the next. The tray alone is laser-safe floor, camera reference, quick-swap surface, smoke-funnel seal, and software anchor for G-Code. One object, five functions. The whole factory works like this — tray, shelf, algorithms, smart-cut finisher — one living system, not a stack of features.<br/><br/>
-<b>Problem:</b> Making layered magnets required hand-gluing sheets, then manual CO₂ laser alignment—sub-millimeter precision by keyboard dozens of times/shift. Skilled labor, slow. 200 units/day max.<br/><br/>
-<b>Solution:</b> Switched from CO₂ (expensive, requires chillers, mirror cleaning, smoke extraction contaminating optics) to modular 70W diode lasers (1/4 cost, compact, horizontally scalable, G-Code control). Mounted ESP32 camera on laser head—detects print crosses regardless of rotation or scale, feeds back to auto-align. Built SVG pipeline to automate file prep (layer splitting, ink-saving, bleed, PDF/SVG rendering)—eliminated manual handover and WhatsApp chaos. Designed custom tray with laser-safe floor and alignment pins. Smart-cut mode: pre-cut alignment holes, stack sheets on pins, glue as one block, final cut with depth-aware laser power per layer—reduces manual labor to near zero.<br/><br/>
-<b>Business impact:</b> 1,000 units/day. 2 full-time operators freed. Modular farm scales as business grows. Running 2024 - today.`,
+		description: `Built and operated a complete laser manufacturing farm from zero — owner-operator, not consultant. Running 2024 – today.<br/><br/>
+<b>Problem:</b> Making layered magnets required hand-gluing sheets and manually aligning each laser cut by keyboard — sub-millimeter precision, dozens of times per shift. Skilled labor, slow. 200 units/day max.<br/><br/>
+<b>Result:</b> One button press. Finished product falls out of the batch — no manual alignment, no designer prep, no cleaning downtime. 200 → 1,000 units/day. 2 full-time labor positions eliminated. Scales with the business.<br/><br/>
+<b>Offsetting manual work into automation.</b> Computer vision on the laser head aligns every cut automatically — no keyboard, no operator. A custom SVG pipeline eliminates designer handoff entirely: file prep, layer splitting, layout optimization — one click, ready to cut.<br/><br/>
+<b>Right hardware from the ground up.</b> Switched from CO₂ to modular diode lasers — ¼ the cost, no mirror calibration, stackable, software-controlled. Custom tray loads and unloads in seconds, doubles as camera reference and local air suction — no dirt, no cleaning, no downtime. Scalable rack fits multiple lasers in 1m².<br/><br/>
+<b>A new industrial process.</b> The entire manual alignment and gluing workflow moved into machine operations. Smart-cut mode stacks, glues, and cuts in one automated sequence — depth-aware per layer. 2 full-time jobs replaced by one button.`,
 		images: ['/ai/alena/1.webp', '/ai/alena/2.webp', '/ai/alena/3.webp', '/ai/alena/4.webp'],
 		route: '/projects/Alena Souvenirs - Manufacturing',
 	},
