@@ -5,6 +5,8 @@ export const header = {
 
 export const thesis = `Founder co-pilot for 0→1. I start from the user's perfect scenario — and architect backwards to make it real.<br/><br/>R&D lab in one human. No coordination tax, no tunnel vision. I work from first principles: identify the problem, strip it to the essentials, rebuild from zero until every piece interlocks.<br/><br/>My value isn't a stack — it's judgment about what's worth building, prototypes that prove it, and end-to-end delivery. Solo or embedded in your team, fast.`
 
+export const closing = `I've been thinking about how human-computer interfaces should work in the AI era — and building to prove it. I want to be in the room where that gets defined.`
+
 export const facts = [
 	{
 		label: 'Experience',

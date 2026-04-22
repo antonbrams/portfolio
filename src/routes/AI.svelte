@@ -1,5 +1,5 @@
 <script>
-	import {header, thesis, facts, projects} from '$lib/logic/model_ai.js'
+	import {header, thesis, closing, facts, projects} from '$lib/logic/model_ai.js'
 	import Footer from '$lib/ui/Footer.svelte'
 	import {push} from 'svelte-spa-router'
 
@@ -57,6 +57,10 @@
 	{/each}
 
 	<br/><br/><br/><br/>
+	<section class="px max-w-xl mx-auto text-00">
+		{closing}
+	</section>
+	<br/><br/>
 	<section class="px max-w-xl mx-auto flex justify-center">
 		<button class="primary" on:click={() => window.open('https://calendly.com/antonbrams/new-meeting', '_blank')}>Book a Call</button>
 	</section>
