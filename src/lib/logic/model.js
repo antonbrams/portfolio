@@ -12,7 +12,7 @@ export const about = [
 	{
 		title: 'Key Projects & Ventures',
 		items: [
-			"<span class='badge'>Alena Souvenirs</span> — Architected and built a fully automated, scalable laser manufacturing system and developed a highly personalized bookkeeping platform for wholesale and manufacturing operations.<br/><br/>",
+			"<span class='badge'>Alena Souvenirs</span> — Architected and built a fully automated, scalable laser manufacturing system, in daily production since March 2025 at up to 1,000 units/day, and a highly personalized bookkeeping platform the whole company has been running on daily since 2021.<br/><br/>",
 			"<span class='badge'>dreiform</span> — Architected and prototyped an AI-driven platform for intelligent human-to-task matching.<br/><br/>",
 			"Co-Founder of <span class='badge'>Touchboard</span> — R&D startup developing advanced haptic human–machine interfaces. Raised €200k through public funding and accelerators.<br/><br/>",
 		],
@@ -35,8 +35,8 @@ export const about = [
 		title: 'Projects',
 		hidden: true,
 		items: [
-			`<span class='badge'>Nov 2024 – Aug 2025</span> Eliminated manual workflows by designing a scalable laser manufacturing farm at <a target="_blank" href="https://alenashop.de">Alena Souvenirs</a>.<br/><br/>`,
-			`<span class='badge'>Jan 2023 - Nov 2024</span> Freelancing remotely on AI and web full-stack projects for <a target="_blank" href="http://meso.design">MESO Digital Interiors GmbH</a> and <a target="_blank" href="http://dreiform.de">dreiform GmbH</a>.<br/><br/>`,
+			`<span class='badge'>Aug 2024 – Aug 2025</span> Eliminated manual workflows by designing a scalable laser manufacturing farm at <a target="_blank" href="https://alenashop.de">Alena Souvenirs</a>.<br/><br/>`,
+			`<span class='badge'>Feb 2023 - Sep 2024</span> Freelance full-stack web projects for <a target="_blank" href="http://meso.design">MESO Digital Interiors GmbH</a> (end clients: Bildungsstätte Anne Frank, DB Fernverkehr, Lingocare, Fraunhofer...) and remote AI work for <a target="_blank" href="http://dreiform.de">dreiform GmbH</a> (spin-off dnxt: AI job-matching prototype).<br/><br/>`,
 			`<span class='badge'>Aug 2021 - Aug 2025</span> Remotely built full-stack accounting platform improving workflow efficiency for 2000+ products at wholesale eCommerce Shop <a target="_blank" href="https://alenashop.de">Alenashop.de</a>.<br/><br/>`,
 		],
 	},
@@ -47,7 +47,7 @@ export const about = [
 			`<span class='badge'>Oct 2024 - now</span> Part-Time Technical UX at <a target="_blank" href="http://meso.design">MESO Digital Interiors GmbH</a>. <br/><br/>`,
 			`<span class='badge'>Oct 2022 - Jan 2023</span> Product Owner full-time at Soft & Hardware Product Company <a target="_blank" href="https://www.adversign-media.de">Adversign Media GmbH </a> in Germany/Düsseldorf.<br/><br/>`,
 			`<span class='badge'>Jun 2017 - Mar 2018</span> UX Research & Rapid Prototyping part-time at <a target="_blank" href="https://www.uni-weimar.de/en/media/institutes/digital-bauhaus-lab/research-labs/human-computer-interaction/">Bauhaus HCI Interface Development Lab</a> in Germany/Weimar.<br/><br/>`,
-			`<span class='badge'>Dez 2015 - Apr 2017</span> UX/UI & Technologist full-time at <a target="_blank" href="http://meso.design">MESO Digital Interiors GmbH</a> in Germany/Frankfurt am Main working for Hyundai, Telekom, KUKA, BASF, YanFeng, Boehringer Ingelheim, Designreisen...<br/><br/>`,
+			`<span class='badge'>Dez 2015 - Mar 2017</span> UX/UI & Technologist full-time at <a target="_blank" href="http://meso.design">MESO Digital Interiors GmbH</a> in Germany/Frankfurt am Main working for Hyundai, Telekom, KUKA, BASF, YanFeng, Boehringer Ingelheim, Designreisen...<br/><br/>`,
 			`<span class='badge'>May 2015 - Sep 2015</span> C++ Generative Designer full-time at <a target="_blank" href="http://universal-interaction.com">Universal Interaction</a> in Germany/Cologne working for Volksbank...<br/><br/>`,
 		],
 	},
@@ -67,7 +67,7 @@ export const about = [
 			`Inventor and Co-Founder of <a target="_blank" href="https://touchboard.tech">Butterfly Touchboard</a> GbR Haptic Interfaces R&D Startup. <br/><br/>`,
 			`<span class='badge'>Jan 2022</span> Design Protection certificate.<br/><br/>`,
 			`<span class='badge'>Jan 2022 - Jun 2022</span> <a target="_blank" href="https://www.ignitiondus.de">Ignition</a> Accelerator with €25.000 funding.<br/><br/>`,
-			`<span class='badge'>Aug 2021 - Oct 2022</span> <a target="_blank" href="https://www.gruenderstipendium.nrw">NRW Stipendium</a> with €36.000 funding.<br/><br/>`,
+			`<span class='badge'>Oct 2021 - Sep 2022</span> <a target="_blank" href="https://www.gruenderstipendium.nrw">NRW Stipendium</a> with €36.000 funding.<br/><br/>`,
 			`<span class='badge'>Oct 2021</span> Best business model pitch winner <a target="_blank" href="https://www.duesseldorf.de/aktuelles/news/detailansicht/newsdetail/gruendungsinteressierte-beim-next-award-duesseldorf-ausgezeichnet">Next Award</a> with €10.000 price.<br/><br/>`,
 			`<span class='badge'>Dec 2020</span> Butterfly Brand registration.<br/><br/>`,
 			`<span class='badge'>Sep 2020 - Aug 2021</span> <a target="_blank" href="https://www.exist.de">EXIST Gründerstripendium</a> with €125.000 funding.<br/><br/>`,
@@ -80,7 +80,7 @@ export const about = [
 		title: 'Internships',
 		hidden: true,
 		items: [
-			`<span class='badge'>Nov 2014 - May 2015</span> UX/UI & Generative Design internship at <a target="_blank" href="http://dreiform.de">dreiform GmbH</a> in Germany/Cologne, working for Telekom, 3M, Union Investment, SLV, Victrex, Avery, Lohmann, Schein...<br/><br/>`,
+			`<span class='badge'>Nov 2014 - Apr 2015</span> UX/UI & Generative Design internship at <a target="_blank" href="http://dreiform.de">dreiform GmbH</a> in Germany/Cologne, working for Telekom, 3M, Union Investment, SLV, Victrex, Avery, Lohmann, Schein...<br/><br/>`,
 			`<span class='badge'>Jul 2011 - Aug 2011</span> Graphic Design & Photography internship at <a target="_blank" href="https://www.ihr-foto-profi.de">Ihr-photo-profi.de</a> in Germany/Oberhausen.`,
 		],
 	},
@@ -410,7 +410,7 @@ export const projects = [
 			{
 				file: `14.mp4`,
 				title: `Finished product`,
-				description: `After the final cut, fully assembled magnets drop directly out of the stack. The process requires minimal dexterity or training, and four diode lasers can produce up to 1,000 units per day.`,
+				description: `After the final cut, fully assembled magnets drop directly out of the stack. The process requires minimal dexterity or training, and four diode lasers can produce up to 1,000 units per day, up from ~100 by hand. In daily production since March 2025.`,
 			},
 			{
 				file: `15.mp4`,
@@ -455,7 +455,7 @@ export const projects = [
 
 				Working in close collaboration with the employees, I adeptly designed and programmed customized full-stack solutions tailored to address their specific needs. My focus revolved around crafting nearly invisible yet immensely powerful features that would automate their analog processes. I continuously sought feedback from users through Zoom or in-person meetings, enabling me to refine the solutions and seamlessly implement them into production.
 			
-				As the sole technical expert on this project, I intentionally employed a minimal technological stack. While this might be suboptimal for industrial use, it proved to be highly advantageous in this context as it allowed me to swiftly roll out new features within hours! This rapid responsiveness to user requirements was pivotal in ensuring the success of the project. It remains an ongoing endeavor, constantly evolving alongside the company and its dedicated employees.`,
+				As the sole technical expert on this project, I intentionally employed a minimal technological stack. While this might be suboptimal for industrial use, it proved to be highly advantageous in this context as it allowed me to swiftly roll out new features within hours! This rapid responsiveness to user requirements was pivotal in ensuring the success of the project. Since 2021, the whole company has been running its daily operations on it, and it keeps evolving alongside the company and its dedicated employees.`,
 			},
 			{
 				file: `2.png`,
