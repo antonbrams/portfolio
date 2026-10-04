@@ -6,13 +6,13 @@ export const about = [
 	{
 		title: 'Expertise',
 		items: [
-			`I’m a <span class='badge'>Principal Innovation Architect</span>. From vision to prototype and optionally to production, I craft the fundamental solution that solves multiple challenges at once and shape it in its most effective form — just a GUI, an AI wearable, an industrial process, or a car dashboard. It requires integrating design, software, and hardware into a cohesive system, as practiced in R&D labs like Apple Future Interfaces or Google ATAP.`,
+			`I’m an <span class='badge'>Innovation Architect</span>. From vision to prototype and optionally to production, I craft the fundamental solution that solves multiple challenges at once and shape it in its most effective form — just a GUI, an AI wearable, an industrial process, or a car dashboard. It requires integrating design, software, and hardware into a cohesive system, as practiced in R&D labs like Apple Future Interfaces or Google ATAP.`,
 		],
 	},
 	{
 		title: 'Key Projects & Ventures',
 		items: [
-			"<span class='badge'>Alena Souvenirs</span> — Architected and built a fully automated, scalable laser manufacturing system, in daily production since March 2025 at up to 1,000 units/day, and a highly personalized bookkeeping platform the whole company has been running on daily since 2021.<br/><br/>",
+			"<span class='badge'>Alena Souvenirs</span> — Architected and built a fully automated, scalable laser manufacturing system, in daily production since March 2025 at up to 1,000 units/day, and a highly personalized bookkeeping platform the whole company has been running on daily since August 2022.<br/><br/>",
 			"<span class='badge'>dreiform</span> — Architected and prototyped an AI-driven platform for intelligent human-to-task matching.<br/><br/>",
 			"Co-Founder of <span class='badge'>Touchboard</span> — R&D startup developing advanced haptic human–machine interfaces. Raised €200k through public funding and accelerators.<br/><br/>",
 		],
@@ -455,7 +455,7 @@ export const projects = [
 
 				Working in close collaboration with the employees, I adeptly designed and programmed customized full-stack solutions tailored to address their specific needs. My focus revolved around crafting nearly invisible yet immensely powerful features that would automate their analog processes. I continuously sought feedback from users through Zoom or in-person meetings, enabling me to refine the solutions and seamlessly implement them into production.
 			
-				As the sole technical expert on this project, I intentionally employed a minimal technological stack. While this might be suboptimal for industrial use, it proved to be highly advantageous in this context as it allowed me to swiftly roll out new features within hours! This rapid responsiveness to user requirements was pivotal in ensuring the success of the project. Since 2021, the whole company has been running its daily operations on it, and it keeps evolving alongside the company and its dedicated employees.`,
+				As the sole technical expert on this project, I intentionally employed a minimal technological stack. While this might be suboptimal for industrial use, it proved to be highly advantageous in this context as it allowed me to swiftly roll out new features within hours! This rapid responsiveness to user requirements was pivotal in ensuring the success of the project. Since August 2022, the whole company has been running its daily operations on it, and it keeps evolving alongside the company and its dedicated employees.`,
 			},
 			{
 				file: `2.png`,
